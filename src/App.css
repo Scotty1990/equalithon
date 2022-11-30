@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -26,13 +26,65 @@
 
 .App-link {
   color: #61dafb;
+} */
+
+#gd-logo {
+  position: absolute;
+  width: 200px;
+  height: 72px;
+  left: 180px;
+  top: 8px;
+  background: #D9D9D9;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#faq-link {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 1060px;
+  top: 24px;
+  background: #D9D9D9;
+  text-align: center;
+}
+
+#login {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 1170px;
+  top: 24px;
+  background: #D9D9D9;
+  text-align: center;
+}
+
+#signup {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  left: 1280px;
+  top: 24px;
+  background: #D9D9D9;
+  text-align: center;
+}
+
+#gd-header {
+  position: absolute;
+  width: 1440px;
+  height: 248px;
+  left: 0px;
+  top: 88px; 
+  background: #D9D9D9;
+  text-align: center;
+}
+
+#search-text {
+  box-sizing: border-box;
+  position: absolute;
+  width: 330px;
+  height: 48px;
+  left: 290px;
+  top: 256px;
+  background: #A9A9A9;
+  border: 1px solid #000000;
 }
