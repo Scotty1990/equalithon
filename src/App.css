@@ -28,63 +28,908 @@
   color: #61dafb;
 } */
 
-#gd-logo {
-  position: absolute;
-  width: 200px;
-  height: 72px;
-  left: 180px;
-  top: 8px;
-  background: #D9D9D9;
-  text-align: center;
-}
-
-#faq-link {
-  position: absolute;
-  width: 90px;
-  height: 40px;
-  left: 1060px;
-  top: 24px;
-  background: #D9D9D9;
-  text-align: center;
-}
-
-#login {
-  position: absolute;
-  width: 90px;
-  height: 40px;
-  left: 1170px;
-  top: 24px;
-  background: #D9D9D9;
-  text-align: center;
-}
-
-#signup {
-  position: absolute;
-  width: 90px;
-  height: 40px;
-  left: 1280px;
-  top: 24px;
-  background: #D9D9D9;
-  text-align: center;
-}
-
-#gd-header {
+.nav-bar {
   position: absolute;
   width: 1440px;
-  height: 248px;
+  height: 88px;
   left: 0px;
-  top: 88px; 
-  background: #D9D9D9;
-  text-align: center;
+  top: 0px;
+
+  /* Foundation /Grey/grey-200 */
+
+  background: #ADADAD;
 }
 
-#search-text {
-  box-sizing: border-box;
+.nav-bar-gd {
+  /* Global Deeds */
+
+
   position: absolute;
-  width: 330px;
-  height: 48px;
-  left: 290px;
-  top: 256px;
-  background: #A9A9A9;
-  border: 1px solid #000000;
+  width: 130px;
+  height: 28px;
+  left: 70px;
+  top: 9px;
+
+  /* Desktop Heading/H6/Bold */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+
+  /* Foundation /Grey/grey-600 */
+
+  color: #464646;
 }
+
+.faq-div {
+  /* FAQ's */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 92px;
+  height: 56px;
+  left: 1060px;
+  top: 5px;
+}
+
+.faq-link {
+  /* FAQ’s */
+
+  width: 52px;
+  height: 28px;
+
+  /* Desktop Heading/H6/Regular */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  /* identical to box height, or 140% */
+
+
+  /* Foundation /Grey/grey-600 */
+
+  color: #464646;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.login-div {
+  /* Login */
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+
+  position: absolute;
+  width: 93px;
+  height: 56px;
+  left: 1129px;
+  top: 4px;
+}
+
+.login-link {
+  /* Login */
+
+  width: 53px;
+  height: 28px;
+
+  /* Desktop Heading/H6/Regular */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  /* identical to box height, or 140% */
+
+
+  /* Foundation /Grey/grey-600 */
+
+  color: #464646;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.signup-div {
+  /* Signup */
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+
+  position: absolute;
+  width: 127px;
+  height: 56px;
+  left: 1243px;
+  top: 16px;
+
+  /* Foundation /Grey/grey-600 */
+
+  border: 1px solid #464646;
+  border-radius: 4px;
+}
+
+.signup-link {
+  /* Signup */
+
+
+  width: 67px;
+  height: 28px;
+
+  /* Desktop Heading/H6/Regular */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  /* identical to box height, or 140% */
+
+
+  /* Foundation /Grey/grey-600 */
+
+  color: #464646;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header-title-gd {
+  /* Global Deeds */
+
+
+  position: absolute;
+  width: 420px;
+  height: 56px;
+  left: 510px;
+  top: 136px;
+
+  /* Desktop Display/Large/Bold */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 56px;
+  /* identical to box height, or 108% */
+
+  text-align: center;
+
+  color: #000000;
+
+}
+
+.your-global-search-provider {
+  /* Your global opportunity search provider */
+
+
+  position: absolute;
+  width: 640px;
+  height: 48px;
+  left: 400px;
+  top: 200px;
+
+  /* Mobile Heading/H2/Regular */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  /* or 125% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.find-education-employment-resources {
+  /* Find reliable educational, employment and emergency resources here and rise to THE TOP! */
+
+
+  position: absolute;
+  width: 640px;
+  height: 64px;
+  left: 400px;
+  top: 312px;
+
+  /* Mobile Heading/H4/Regular */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.search-text-div {
+  /* Form Field */
+
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+
+  position: absolute;
+  width: 230px;
+  height: 44px;
+  left: 357px;
+  top: 405px;
+
+  /* Foundation /Grey/grey-600 */
+
+  /* border: 1px solid #464646;
+  border-radius: 4px 0px 0px 4px; */
+}
+
+.search-text-input-field {
+  /* Enter Search Keyword */
+
+
+  width: 230px;
+  height: 38px;
+
+  /* Desktop Heading/H7/Regular */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+
+  /* Foundation /Grey/grey-600 */
+
+  color: #464646;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.dropdown-div {
+  /* Form Field */
+
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+
+  position: absolute;
+  width: 230px;
+  height: 44px;
+  left: 610px;
+  top: 405px;
+
+  /* Foundation /Grey/grey-600 */
+
+  border: 1px solid #464646;
+  border-radius: 0px 4px 4px 0px;
+ 
+}
+
+.find-btn {
+  /* Small Button */
+
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+
+  position: absolute;
+  width: 200px;
+  height: 44px;
+  left: 839px;
+  top: 405px;
+
+  /* Foundation/Blue/blue-500 */
+
+  background: #0E408B;
+  /* Foundation/Blue/blue-50 */
+
+  border: 1px solid #E7ECF3;
+  border-radius: 4px;
+}
+
+.search-icon-div {
+  /* Group 7 */
+
+  width: 18px;
+  height: 18px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.search-icon {
+
+}
+
+.find-btn-text {
+  /* Find */
+
+
+  width: 33px;
+  height: 20px;
+
+  /* Desktop Heading/H7/Regular */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+
+  /* Foundation/Blue/blue-50 */
+
+  color: #E7ECF3;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+}
+
+.search-icon {
+  /* search */
+
+
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 69.5px;
+  top: 13px;
+}
+
+.video-banner-div {
+  /* Rectangle 246 */
+
+
+  position: absolute;
+  width: 1440px;
+  height: 384px;
+  left: 0px;
+  top: 480px;
+
+  /* Foundation /Grey/grey-50 */
+
+  background: #EDEDED;
+}
+
+.welcome {
+  /* Welcome! */
+
+  position: absolute;
+  width: 223px;
+  height: 48px;
+  left: 176px;
+  top: 70px;
+
+  /* Desktop Display/Small/Bold */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 48px;
+  /* identical to box height, or 109% */
+
+
+  /* Foundation /Grey/grey-600 */
+
+  color: #464646;
+}
+
+.welcome-text {
+  position: absolute;
+  width: 518px;
+  height: 120px;
+  left: 176px;
+  top: 150px;
+
+  /* Desktop Heading/H7/Regular */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+
+
+  /* Foundation /Grey/grey-600 */
+
+  color: #464646;
+}
+
+.video {
+  /* Rectangle 248 */
+
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 460px;
+  height: 256px;
+  left: 820px;
+  top: 80px;
+
+  /* Foundation /Grey/grey-100 */
+
+  background: #C8C8C8;
+  /* Foundation/Orange/orange-500 */
+
+  border: 1px solid #FF8400;
+  border-radius: 24px;
+}
+
+#video-img {
+  width: 380px;
+  height: 256px;
+}
+
+.students-individuals-div {
+  /* Students / Individuals */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+
+  position: absolute;
+  width: 331px;
+  height: 48px;
+  left: 130px;
+  top: 912px;
+
+  border-radius: 4px;
+}
+
+.students-individuals-text {
+  /* Students / Individuals */
+
+  width: 299px;
+  height: 36px;
+
+  /* Desktop Heading/H4/Bold */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+
+  /* identical to box height, or 129% */
+
+
+  /* Foundation /Grey/grey-500 */
+
+  color: #4D4D4D;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.students-individuals-category-card {
+  /* Category Card */
+
+
+  position: absolute;
+  width: 420px;
+  height: 376px;
+  left: 70px;
+  top: 962px;
+}
+
+.category-title-and-icon {
+  /* Category Title & Icon */
+  
+  
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 70px;
+  /* top: 968px; */
+}
+
+.category-title-icon-div-students-individuals {
+  /* Rectangle 235 */
+
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 70px;
+  top: 10px;
+  
+  /* Foundation /Grey/grey-300 */
+
+  background: #888888;
+}
+
+.earn-money {
+  /* Earn Money */
+
+
+  position: absolute;
+  width: 240px;
+  height: 64px;
+  left: 70px;
+  top: -15px;
+
+/* Desktop Heading/H4/Bold */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  /* or 129% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Foundation /Grey/grey-50 */
+
+  color: #EDEDED;
+}
+
+.category-listings-div {
+  /* Rectangle 234 */
+
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  left: 70px;
+  top: 107px;
+
+  /* Foundation /Grey/grey-50 */
+
+  background: #EDEDED;
+}
+
+.category-listings {
+  /* Category Listings */
+
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  left: 70px;
+  top: 96px;
+}
+
+.jobs {
+  /* Jobs */
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: -40px;
+  top: -110px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+
+  /* Foundation /Grey/grey-400 */
+
+  color: #717171;
+}
+
+.jobs-line {
+  /* Line 26 */
+
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: -40px;
+  top: -50px;
+
+  /* Foundation /Grey/grey-400 */
+
+  border: 2px solid #717171;
+}
+
+.internships {
+  /* Internships */
+
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: -40px;
+  top: -55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+
+  /* Foundation /Grey/grey-400 */
+
+  color: #717171;
+}
+
+.internships-line {
+  /* Line 27 */
+
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: -40px;
+  top: 5px;
+
+  /* Foundation /Grey/grey-400 */
+
+  border: 2px solid #717171;
+}
+
+.summer-programs {
+  /* Summer Programs */
+
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: -40px;
+  top: 0px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+
+  /* Foundation /Grey/grey-400 */
+
+  color: #717171;
+}
+
+.summer-programs-line {
+  /* Line 28 */
+
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: -40px;
+  top: 60px;
+
+  /* Foundation /Grey/grey-400 */
+
+  border: 2px solid #717171;
+}
+
+.scholarships {
+  /* Scholarships */
+
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: -40px;
+  top: 55px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+
+  /* Foundation /Grey/grey-400 */
+
+  color: #717171;
+
+}
+
+.scholarships-line {
+  /* Line 29 */
+
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: -40px;
+  top: 115px;
+
+  /* Foundation /Grey/grey-400 */
+
+  border: 2px solid #717171;
+}
+
+.financial-assistance {
+  /* Financial Assistance */
+
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: -40px;
+  top: 110px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+
+  /* Foundation /Grey/grey-400 */
+
+  color: #717171;
+}
+
+.financial-assistance-line {
+  /* Line 30 */
+
+
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: -40px;
+  top: 170px;
+
+  /* Foundation /Grey/grey-400 */
+
+  border: 2px solid #717171;
+}
+
+.emergency-listings-category-card {
+  /* Category Card */
+
+  position: absolute;
+  width: 420px;
+  height: 376px;
+  left: 510px;
+  top: 968px;
+}
+
+.category-title-icon-div-emergency-listings {
+  /* Category Title & Icon */
+
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 510px;
+  top: 968px;
+}
+
+/* 
+.dropbtn {
+  background-color: white;
+  position: relative;
+  left: 144px;
+  color: white;
+  padding: 19px;
+  border: none;
+}
+
+.btn-down-triangle {
+  width: 0;
+  height: 0;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-top: 8px solid black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+ */
