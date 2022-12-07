@@ -3,6 +3,9 @@ import Buttons from './BackSaveButton';
 function InformationForm(){
     return(
         <div>
+            <h1>Information</h1>
+            <h4>Fill out the form to get started</h4>
+            <h6>*Indicates a required field</h6>
      <form >
         <input type="text" name='email' placeholder="Email"  />
         <input type="text" name='password' placeholder="Password"  />
