@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Buttons from './BackSaveButton';
 function SignupRoleForm(){
     return(
         <div>
@@ -10,12 +10,9 @@ function SignupRoleForm(){
         <input type="checkbox" name='cooporation' />
         <input type='checkbox' name='nonprofit'/>
         <input type='checkbox' name='other'/>
-        <button>Back</button>
-        <button type="submit">Save and Continue</button>
+        <Buttons/>
       </form>
-      <h4>Forgot password? Click here to reset</h4>
-      <h1>OR</h1>
-      <button>Create an Account</button>
+     
         </div>
     )
 }
