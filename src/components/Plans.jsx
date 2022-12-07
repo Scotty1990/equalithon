@@ -18,6 +18,8 @@ return (
         <label>Platinum $850/year</label>
         <input type='checkbox' name='platinum'/>
     </form>
+    <button>Back</button>
+    <button>Payment Info</button>
     </div>
 )
 }
