@@ -64,6 +64,7 @@ function MyGDPortalPage() {
                     of opportunities, and you will have access to highly trained 
                     individuals that can perform at the level you require.
                 </p>
+                <button id="learn-more"><p id="learn-more-text">Learn More</p></button>
                 <div className='video'><img id='video-img' src={Video} alt='video' /></div>
             </div>
             <div className='students-individuals-div'>
