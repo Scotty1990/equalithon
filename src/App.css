@@ -346,13 +346,7 @@
 }
 
 .dropdown-div {
-  /* Form Field */
-
-
   box-sizing: border-box;
-
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -366,8 +360,6 @@
   left: 610px;
   top: 405px;
 
-  /* Foundation /Grey/grey-600 */
-
   border: 1px solid #464646;
   border-radius: 0px 4px 4px 0px;
  
@@ -375,7 +367,6 @@
 
 .find-btn {
   /* Small Button */
-
 
   box-sizing: border-box;
 
@@ -417,13 +408,14 @@
   flex-grow: 0;
 }
 
-.search-icon {
-
+.feather-search {
+  position: absolute;
+  left: 70px;
+  color: white;
 }
 
 .find-btn-text {
   /* Find */
-
 
   width: 33px;
   height: 20px;
@@ -454,7 +446,6 @@
 .search-icon {
   /* search */
 
-
   position: absolute;
   width: 18px;
   height: 18px;
@@ -464,7 +455,6 @@
 
 .video-banner-div {
   /* Rectangle 246 */
-
 
   position: absolute;
   width: 1440px;
@@ -526,7 +516,6 @@
 .video {
   /* Rectangle 248 */
 
-
   box-sizing: border-box;
 
   position: absolute;
@@ -550,11 +539,6 @@
 }
 
 .students-individuals-div {
-  /* Students / Individuals */
-
-
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -599,10 +583,40 @@
   flex-grow: 0;
 }
 
-.students-individuals-category-card {
-  /* Category Card */
+.students-individuals-icon {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 1258px;
+  top: 930px; 
+  border-radius: 50%;
+  background-color: orange;
+  
+}
 
+.feather-more-horizontal {
+  color: white;
+}
 
+#top {
+  position: inherit;
+  top: -2px;
+  left: 5px;
+}
+
+#middle {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+#bottom {
+  position: relative;
+  top: -15px;
+  left: 5px;
+}
+
+.category-card-earn-money {
   position: absolute;
   width: 420px;
   height: 376px;
@@ -610,10 +624,18 @@
   top: 962px;
 }
 
-.category-title-and-icon {
-  /* Category Title & Icon */
+
+.category-title-icon-div-earn-money-container {
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 70px;
+  top: 10px;
   
-  
+  background: #888888;
+}
+
+.category-title-and-icon-earn-money {
   position: absolute;
   width: 420px;
   height: 96px;
@@ -621,65 +643,48 @@
   /* top: 968px; */
 }
 
-.category-title-icon-div-students-individuals {
-  /* Rectangle 235 */
-
+.feather-dollar-sign {
   position: absolute;
-  width: 420px;
-  height: 96px;
-  left: 70px;
-  top: 10px;
-  
-  /* Foundation /Grey/grey-300 */
-
-  background: #888888;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  padding: 4px;
+  left: 50px;
+  top: 30px;
+  color: white;
+  background-color: orange;
 }
 
 .earn-money {
-  /* Earn Money */
-
-
   position: absolute;
   width: 240px;
   height: 64px;
-  left: 70px;
+  left: 95px;
   top: -15px;
-
-/* Desktop Heading/H4/Bold */
 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
-  /* or 129% */
 
   display: flex;
   align-items: center;
   text-align: center;
 
-  /* Foundation /Grey/grey-50 */
-
   color: #EDEDED;
 }
 
-.category-listings-div {
-  /* Rectangle 234 */
-
+.category-listings-container {
   position: absolute;
   width: 420px;
   height: 280px;
   left: 70px;
   top: 107px;
 
-  /* Foundation /Grey/grey-50 */
-
   background: #EDEDED;
 }
 
-.category-listings {
-  /* Category Listings */
-
+.category-listings-earn-money {
   position: absolute;
   width: 420px;
   height: 280px;
@@ -688,7 +693,6 @@
 }
 
 .jobs {
-  /* Jobs */
   position: absolute;
   width: 364px;
   height: 32px;
@@ -700,31 +704,21 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  /* or 140% */
-
-
-  /* Foundation /Grey/grey-400 */
 
   color: #717171;
 }
 
 .jobs-line {
-  /* Line 26 */
-
   position: absolute;
   width: 364px;
   height: 0px;
   left: -40px;
   top: -50px;
 
-  /* Foundation /Grey/grey-400 */
-
   border: 2px solid #717171;
 }
 
 .internships {
-  /* Internships */
-
   position: absolute;
   width: 364px;
   height: 32px;
@@ -736,31 +730,21 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  /* or 140% */
-
-
-  /* Foundation /Grey/grey-400 */
-
+ 
   color: #717171;
 }
 
 .internships-line {
-  /* Line 27 */
-
   position: absolute;
   width: 364px;
   height: 0px;
   left: -40px;
   top: 5px;
 
-  /* Foundation /Grey/grey-400 */
-
   border: 2px solid #717171;
 }
 
 .summer-programs {
-  /* Summer Programs */
-
   position: absolute;
   width: 364px;
   height: 32px;
@@ -772,31 +756,21 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  /* or 140% */
-
-
-  /* Foundation /Grey/grey-400 */
-
+ 
   color: #717171;
 }
 
 .summer-programs-line {
-  /* Line 28 */
-
   position: absolute;
   width: 364px;
   height: 0px;
   left: -40px;
   top: 60px;
 
-  /* Foundation /Grey/grey-400 */
-
   border: 2px solid #717171;
 }
 
 .scholarships {
-  /* Scholarships */
-
   position: absolute;
   width: 364px;
   height: 32px;
@@ -808,32 +782,21 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  /* or 140% */
-
-
-  /* Foundation /Grey/grey-400 */
 
   color: #717171;
-
 }
 
 .scholarships-line {
-  /* Line 29 */
-
   position: absolute;
   width: 364px;
   height: 0px;
   left: -40px;
   top: 115px;
 
-  /* Foundation /Grey/grey-400 */
-
   border: 2px solid #717171;
 }
 
 .financial-assistance {
-  /* Financial Assistance */
-
   position: absolute;
   width: 364px;
   height: 32px;
@@ -845,32 +808,21 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
-  /* or 140% */
-
-
-  /* Foundation /Grey/grey-400 */
 
   color: #717171;
 }
 
 .financial-assistance-line {
-  /* Line 30 */
-
-
   position: absolute;
   width: 364px;
   height: 0px;
   left: -40px;
   top: 170px;
 
-  /* Foundation /Grey/grey-400 */
-
   border: 2px solid #717171;
 }
 
-.emergency-listings-category-card {
-  /* Category Card */
-
+.category-card-emergency-listings {
   position: absolute;
   width: 420px;
   height: 376px;
@@ -878,58 +830,607 @@
   top: 968px;
 }
 
-.category-title-icon-div-emergency-listings {
-  /* Category Title & Icon */
-
+.category-title-icon-div-emergency-resources-listings-container {
   position: absolute;
   width: 420px;
   height: 96px;
-  left: 510px;
+  left: 50px;
+  top: 4px;
+}
+
+.category-title-and-icon-emergency-resources {
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 10px;
+  /* top: 968px; */
+
+  background: #888888;
+}
+
+.feather-plus-circle {
+  position: absolute;
+  top: 30px;
+  left: 120px;;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  padding: 4px;
+  color: white;
+  background-color: orange;
+}
+
+.emergency-resources {
+  position: absolute;
+  width: 240px;
+  height: 64px;
+  left: 115px;
+  top: -15px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #EDEDED;
+}
+
+.category-listings-emergency-listings {
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  left: 60px;
+  top: 100px;
+
+  background: #EDEDED;
+}
+
+.shelters {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: 30px;
+  top: -13px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  
+  color: #717171;
+}
+
+.shelters-line {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 30px;
+  top: 47px;
+
+  border: 2px solid #717171;
+}
+
+.housing-opportunities {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: 30px;
+  top: 42px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  
+  color: #717171;
+}
+
+.housing-opportunities-line {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 30px;
+  top: 102px;
+
+  border: 2px solid #717171;
+}
+
+.emergency-aid {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: 30px;
+  top: 97px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  
+  color: #717171;
+}
+
+.emergency-aid-line {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 30px;
+  top: 157px;
+
+  border: 2px solid #717171;
+}
+
+.hotlines {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: 30px;
+  top: 152px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  
+  color: #717171;
+}
+
+.hotlines-line {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 30px;
+  top: 212px;
+
+  border: 2px solid #717171;
+}
+
+.category-card-learn-network {
+  position: absolute;
+  width: 420px;
+  height: 376px;
+  left: 950px;
   top: 968px;
 }
 
-/* 
-.dropbtn {
-  background-color: white;
-  position: relative;
-  left: 144px;
-  color: white;
-  padding: 19px;
-  border: none;
-}
-
-.btn-down-triangle {
-  width: 0;
-  height: 0;
-  border-left: 2px solid transparent;
-  border-right: 2px solid transparent;
-  border-top: 8px solid black;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
+.category-title-icon-div-learn-network-container {
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  width: 420px;
+  height: 96px;
+  left: 50px;
+  top: 2px;
 }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.category-title-and-icon-learn-network {
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 0px;
+  top: 2px;
+
+  background: #888888; 
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.feather-cloud {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  padding: 4px;
+  background-color: orange;
+  color: white;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.learn-network {
+  position: absolute;
+  width: 240px;
+  height: 64px;
+  left: 105px;
+  top: -15px;
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
- */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  
+  text-align: center;
+
+  color: #EDEDED;
+}
+
+.category-listings-learn-network {
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  left: 50px;
+  top: 100px;
+
+  background: #EDEDED;
+}
+
+.conferences {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: 30px;
+  top: -14px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  
+  color: #717171;
+}
+
+.conferences-line {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 30px;
+  top: 46px;
+
+  border: 2px solid #717171;
+}
+
+.speaker-series {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: 30px;
+  top: 41px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #717171;
+}
+
+.speaker-series-line {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 30px;
+  top: 101px;
+  
+  border: 2px solid #717171; 
+}
+
+.find-mentor {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: 30px;
+  top: 96px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  
+  color: #717171;
+}
+
+.find-mentor-line {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 30px;
+  top: 156px;
+
+  border: 2px solid #717171;
+}
+
+.volunteer-community-work {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: 30px;
+  top: 151px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  
+  color: #717171;
+}
+
+.volunteer-community-work-line {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 30px;
+  top: 211px;
+  
+  border: 2px solid #717171;
+}
+
+.calendar-local-activities {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  left: 30px;
+  top: 206px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #717171;
+}
+
+.calendar-local-activities-line {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  left: 30px;
+  top: 266px;
+  
+  border: 2px solid #717171;
+}
+
+.companies-school-nonprofits-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  position: absolute;
+  width: 475px;
+  height: 48px;
+  left: 130px;
+  top: 1392px;
+  border-radius: 4px;
+}
+
+.companies-school-nonprofits-text {
+  width: 443px;
+  height: 36px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #4D4D4D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.category-card-post-jobs {
+  position: absolute;
+  width: 420px;
+  height: 272px;
+  left: 0px;
+  /* top: 1448px; */
+}
+
+.category-title-icon-div-post-jobs-container {
+  position: absolute;
+  width: 420px;
+  height: 272px;
+  left: 70px;
+  /* top: 1448px; */
+}
+
+.category-title-and-icon-post-jobs {
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 70px;
+  top: 1448px;
+  background: #888888;
+}
+
+.post-jobs {
+  position: absolute;
+  width: 240px;
+  height: 64px;
+  left: 115px;
+  top: -15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center;
+  color: #EDEDED;
+}
+
+#plus-circle-jobs {
+  left: 105px;
+}
+
+.post-jobs-text-div {
+  position: absolute;
+  width: 420px;
+  height: 176px;
+  left: 140px;
+  top: 1544px;
+  background: #EDEDED;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.post-jobs-text {
+  position: absolute;
+  width: 364px;
+  height: 128px;
+  left: 40px;
+  top: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #717171;
+}
+
+.category-card-advertise-programs {
+  position: absolute;
+  width: 420px;
+  height: 272px;
+  left: 170px;
+  top: 0px;
+}
+
+.category-title-icon-div-advertise-programs-container {
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 200px;
+  top: 0px;
+}
+
+.category-title-and-icon-advertise-programs {
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 200px;
+  top: 1448px;
+  background: #888888;
+}
+
+.feather-monitor {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  padding: 4px;
+  background-color: orange;
+  color: white;
+}
+
+.advertise-programs {
+  position: absolute;
+  width: 240px;
+  height: 64px;
+  left: 115px;
+  top: -20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  text-align: center; 
+  color: #EDEDED;  
+}
+
+.advertise-programs-text-div {
+  position: absolute;
+  width: 420px;
+  height: 176px;
+  left: 402px;
+  top: 1544px;
+  background: #EDEDED;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.advertise-programs-text {
+  position: absolute;
+  width: 364px;
+  height: 128px;
+  left: 40px;
+  /* top: 1560px; */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #717171;
+}
+
+.category-card-find-talent {
+  position: absolute;
+  width: 420px;
+  height: 272px;
+  left: 0px;
+  top: 1500px;  
+}
+
+.category-title-icon-div-find-talent-container {
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 0px;
+  top: -52px;
+}
+
+.category-title-and-icon-find-talent {
+  position: absolute;
+  width: 420px;
+  height: 96px;
+  left: 1000px;
+  top: 0px;
+  background: #888888;
+}
+
+#find-talent-feather-search {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  padding: 4px;
+  background-color: orange;
+  color: white;
+}
+
+.find-talent-text-div {
+  position: absolute;
+  width: 420px;
+  height: 176px;
+  left: 1000px;
+  top: 44px;
+  background: #EDEDED;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.find-talent {
+  position: absolute;
+  width: 240px;
+  height: 64px;
+  left: 200px;
+  top: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px; 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #EDEDED;
+}
+
+.find-talent-text {
+  position: absolute;
+  width: 364px;
+  height: 128px;
+  left: 978px;
+  top: 40px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #717171;
+}
