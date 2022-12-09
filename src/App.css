@@ -1,4 +1,4 @@
-.nav-bar {
+#nav-bar {
   position: absolute;
   width: 1440px;
   height: 88px;
@@ -7,7 +7,7 @@
   background: #ADADAD;
 }
 
-.nav-bar-gd {
+#nav-bar-gd {
   position: absolute;
   width: 130px;
   height: 28px;
@@ -21,77 +21,58 @@
   color: #464646;
 }
 
-.faq-div {
+.nav-bar-links {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #464646;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.nav-bar-links-divs {
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 13px 20px;
   gap: 10px;
+}
 
-  position: absolute;
+#faq-div {
+  padding: 13px 20px;
   width: 92px;
   height: 56px;
   left: 1060px;
   top: 5px;
 }
 
-.faq-link {
+#faq-link {
   width: 52px;
   height: 28px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  text-decoration: none;
-  color: #464646;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
-.login-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+#login-div {
   padding: 13px 20px;
-  gap: 10px;
-
-  position: absolute;
   width: 93px;
   height: 56px;
   left: 1129px;
   top: 4px;
 }
 
-.login-link {
+#login-link {
   width: 53px;
   height: 28px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  text-decoration: none;
-  color: #464646;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
 }
 
-.signup-div {
+#signup-div {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 15px 30px;
-  gap: 10px;
 
-  position: absolute;
   width: 127px;
   height: 56px;
   left: 1243px;
@@ -100,71 +81,50 @@
   border-radius: 4px;
 }
 
-.signup-link {
+#signup-link {
   width: 67px;
   height: 28px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  text-decoration: none;
-  color: #464646;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
-.header-title-gd {
+.header-text {
   position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+}
+
+#header-title-gd {
   width: 420px;
   height: 56px;
   left: 510px;
   top: 136px;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 700;
   font-size: 52px;
   line-height: 56px;
-  text-align: center;
-
-  color: #000000;
-
 }
 
-.your-global-search-provider {
-  position: absolute;
+#your-global-search-provider {
   width: 640px;
   height: 48px;
   left: 400px;
   top: 200px;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 40px;
-  text-align: center;
-
-  color: #000000;
 }
 
-.find-education-employment-resources {
-  position: absolute;
+#find-education-employment-resources {
   width: 640px;
   height: 64px;
   left: 400px;
   top: 312px;
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
-  text-align: center;
-
-  color: #000000;
 }
 
-.search-text-div {
+#search-text-div {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -179,7 +139,7 @@
   top: 405px;
 }
 
-.search-text-input-field {
+#search-text-input-field {
   width: 230px;
   height: 38px;
   font-family: 'Inter';
@@ -193,7 +153,7 @@
   flex-grow: 0;
 }
 
-.dropdown-div {
+#dropdown-div {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -210,10 +170,9 @@
 
   border: 1px solid #464646;
   border-radius: 0px 4px 4px 0px;
- 
 }
 
-.find-btn {
+#find-btn {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
@@ -232,7 +191,7 @@
   border-radius: 4px;
 }
 
-.search-icon-div {
+#search-icon-div {
   width: 18px;
   height: 18px;
   flex: none;
@@ -246,7 +205,7 @@
   color: white;
 }
 
-.find-btn-text {
+#find-btn-text {
   width: 33px;
   height: 20px;
   font-family: 'Inter';
@@ -261,7 +220,7 @@
 
 }
 
-.search-icon {
+#search-icon {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -269,7 +228,7 @@
   top: 13px;
 }
 
-.video-banner-div {
+#video-banner-div {
   position: absolute;
   width: 1440px;
   height: 384px;
@@ -278,7 +237,7 @@
   background: #EDEDED;
 }
 
-.welcome {
+#welcome {
   position: absolute;
   width: 223px;
   height: 48px;
@@ -292,7 +251,7 @@
   color: #464646;
 }
 
-.welcome-text {
+#welcome-text {
   position: absolute;
   width: 518px;
   height: 120px;
@@ -339,7 +298,7 @@
   flex-grow: 0;
 }
 
-.video {
+#video {
   /* Rectangle 248 */
 
   box-sizing: border-box;
@@ -364,7 +323,7 @@
   height: 256px;
 }
 
-.students-individuals-div {
+#students-individuals-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -381,7 +340,7 @@
   border-radius: 4px;
 }
 
-.students-individuals-text {
+#students-individuals-text {
   width: 299px;
   height: 36px;
   font-family: 'Inter';
@@ -395,7 +354,7 @@
   flex-grow: 0;
 }
 
-.students-individuals-icon {
+#students-individuals-icon {
   position: absolute;
   width: 34px;
   height: 34px;
@@ -428,7 +387,7 @@
   left: 5px;
 }
 
-.category-card-earn-money {
+#category-card-earn-money {
   position: absolute;
   width: 420px;
   height: 376px;
@@ -437,7 +396,7 @@
 }
 
 
-.category-title-icon-div-earn-money-container {
+#category-title-icon-div-earn-money-container {
   position: absolute;
   width: 420px;
   height: 96px;
@@ -448,7 +407,7 @@
   background: #888888;
 }
 
-.category-title-and-icon-earn-money {
+#category-title-and-icon-earn-money {
   position: absolute;
   width: 420px;
   height: 96px;
@@ -466,27 +425,46 @@
   background-color: orange;
 }
 
-.earn-money {
+.category-title-texts {
   position: absolute;
-  width: 240px;
-  height: 64px;
-  left: 95px;
-  top: -15px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
-
-  display: flex;
-  align-items: center;
   text-align: center;
-
   color: #EDEDED;
 }
 
-.category-listings-container {
+.listings-text {
+  position: absolute;
+  width: 364px;
+  height: 32px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #717171;
+}
+
+.listings-lines {
+  position: absolute;
+  width: 364px;
+  height: 0px;
+  border: 2px solid #717171;
+}
+
+#earn-money {
+  width: 240px;
+  height: 64px;
+  left: 95px;
+  top: -15px;
+  display: flex;
+  align-items: center;
+}
+
+#category-listings-container-earn-money {
   position: absolute;
   width: 420px;
   height: 280px;
@@ -497,7 +475,7 @@
   background: #EDEDED;
 }
 
-.category-listings-earn-money {
+#category-listings-earn-money {
   position: absolute;
   width: 420px;
   height: 280px;
@@ -505,137 +483,57 @@
   top: 96px;
 }
 
-.jobs {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#jobs {
   left: -40px;
   top: -110px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-
-  color: #717171;
 }
 
-.jobs-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#jobs-line {
   left: -40px;
   top: -50px;
-
-  border: 2px solid #717171;
 }
 
-.internships {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#internships {
   left: -40px;
   top: -55px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
- 
-  color: #717171;
 }
 
-.internships-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#internships-line {
   left: -40px;
   top: 5px;
-
-  border: 2px solid #717171;
 }
 
-.summer-programs {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#summer-programs {
   left: -40px;
   top: 0px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
- 
-  color: #717171;
 }
 
-.summer-programs-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#summer-programs-line {
   left: -40px;
   top: 60px;
-
-  border: 2px solid #717171;
 }
 
-.scholarships {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#scholarships {
   left: -40px;
   top: 55px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-
-  color: #717171;
 }
 
-.scholarships-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#scholarships-line {
   left: -40px;
   top: 115px;
-
-  border: 2px solid #717171;
 }
 
-.financial-assistance {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#financial-assistance {
   left: -40px;
   top: 110px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-
-  color: #717171;
 }
 
-.financial-assistance-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#financial-assistance-line {
   left: -40px;
   top: 170px;
-
-  border: 2px solid #717171;
 }
 
-.category-card-emergency-listings {
+#category-card-emergency-listings {
   position: absolute;
   width: 420px;
   height: 376px;
@@ -643,7 +541,7 @@
   top: 968px;
 }
 
-.category-title-icon-div-emergency-resources-listings-container {
+#category-title-icon-div-emergency-resources-listings-container {
   position: absolute;
   width: 420px;
   height: 96px;
@@ -651,7 +549,7 @@
   top: 4px;
 }
 
-.category-title-and-icon-emergency-resources {
+#category-title-and-icon-emergency-resources {
   position: absolute;
   width: 420px;
   height: 96px;
@@ -672,25 +570,14 @@
   background-color: orange;
 }
 
-.emergency-resources {
-  position: absolute;
+#emergency-resources {
   width: 240px;
   height: 64px;
   left: 115px;
   top: -15px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 36px;
-
-  text-align: center;
-
-  color: #EDEDED;
 }
 
-.category-listings-emergency-listings {
+#category-listings-emergency-listings {
   position: absolute;
   width: 420px;
   height: 280px;
@@ -701,111 +588,47 @@
   background: #EDEDED;
 }
 
-.shelters {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#shelters {
   left: 30px;
   top: -13px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  
-  color: #717171;
 }
 
-.shelters-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#shelters-line {
   left: 30px;
   top: 47px;
-
-  border: 2px solid #717171;
 }
 
-.housing-opportunities {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#housing-opportunities {
   left: 30px;
   top: 42px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  
-  color: #717171;
 }
 
-.housing-opportunities-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#housing-opportunities-line {
   left: 30px;
   top: 102px;
-
-  border: 2px solid #717171;
 }
 
-.emergency-aid {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#emergency-aid {
   left: 30px;
   top: 97px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  
-  color: #717171;
 }
 
-.emergency-aid-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#emergency-aid-line {
   left: 30px;
   top: 157px;
-
-  border: 2px solid #717171;
 }
 
-.hotlines {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#hotlines {
   left: 30px;
   top: 152px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  
-  color: #717171;
 }
 
-.hotlines-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#hotlines-line {
   left: 30px;
   top: 212px;
-
-  border: 2px solid #717171;
 }
 
-.category-card-learn-network {
+#category-card-learn-network {
   position: absolute;
   width: 420px;
   height: 376px;
@@ -813,7 +636,7 @@
   top: 968px;
 }
 
-.category-title-icon-div-learn-network-container {
+#category-title-icon-div-learn-network-container {
   position: absolute;
   width: 420px;
   height: 96px;
@@ -821,7 +644,7 @@
   top: 2px;
 }
 
-.category-title-and-icon-learn-network {
+#category-title-and-icon-learn-network {
   position: absolute;
   width: 420px;
   height: 96px;
@@ -843,25 +666,14 @@
   color: white;
 }
 
-.learn-network {
-  position: absolute;
+#learn-network {
   width: 240px;
   height: 64px;
   left: 105px;
   top: -15px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 36px;
-  
-  text-align: center;
-
-  color: #EDEDED;
 }
 
-.category-listings-learn-network {
+#category-listings-learn-network {
   position: absolute;
   width: 420px;
   height: 280px;
@@ -872,137 +684,57 @@
   background: #EDEDED;
 }
 
-.conferences {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#conferences {
   left: 30px;
   top: -14px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  
-  color: #717171;
 }
 
-.conferences-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#conferences-line {
   left: 30px;
   top: 46px;
-
-  border: 2px solid #717171;
 }
 
-.speaker-series {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#speaker-series {
   left: 30px;
   top: 41px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-
-  color: #717171;
 }
 
-.speaker-series-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#speaker-series-line {
   left: 30px;
   top: 101px;
-  
-  border: 2px solid #717171; 
 }
 
-.find-mentor {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#find-mentor {
   left: 30px;
   top: 96px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  
-  color: #717171;
 }
 
-.find-mentor-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#find-mentor-line {
   left: 30px;
   top: 156px;
-
-  border: 2px solid #717171;
 }
 
-.volunteer-community-work {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#volunteer-community-work {
   left: 30px;
   top: 151px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  
-  color: #717171;
 }
 
-.volunteer-community-work-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#volunteer-community-work-line {
   left: 30px;
   top: 211px;
-  
-  border: 2px solid #717171;
 }
 
-.calendar-local-activities {
-  position: absolute;
-  width: 364px;
-  height: 32px;
+#calendar-local-activities {
   left: 30px;
   top: 206px;
-
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-
-  color: #717171;
 }
 
-.calendar-local-activities-line {
-  position: absolute;
-  width: 364px;
-  height: 0px;
+#calendar-local-activities-line {
   left: 30px;
   top: 266px;
-  
-  border: 2px solid #717171;
 }
 
-.companies-school-nonprofits-div {
+#companies-school-nonprofits-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1017,7 +749,7 @@
   border-radius: 4px;
 }
 
-.companies-school-nonprofits-text {
+#companies-school-nonprofits-text {
   width: 443px;
   height: 36px;
   font-family: 'Inter';
@@ -1031,51 +763,69 @@
   flex-grow: 0;
 }
 
-.category-card-post-jobs {
+#category-card-post-jobs {
   position: absolute;
   width: 420px;
   height: 272px;
   left: 0px;
 }
 
-.category-title-icon-div-post-jobs-container {
+#category-title-icon-div-post-jobs-container {
   position: absolute;
   width: 420px;
   height: 272px;
   left: 70px;
 }
 
-.category-title-and-icon-post-jobs {
+.category-titles-and-icons {
   position: absolute;
   width: 420px;
   height: 96px;
-  left: 70px;
-  top: 1448px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   background: #888888;
 }
 
-.post-jobs {
+#category-title-and-icon-post-jobs {
+  left: 70px;
+  top: 1448px;
+}
+
+.category-text-boxes-titles {
   position: absolute;
   width: 240px;
   height: 64px;
-  left: 115px;
-  top: -15px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
-  text-align: center;
-  color: #EDEDED;
+  text-align: center; 
+  color: #EDEDED;  
+}
+
+.category-texts {
+  position: absolute;
+  width: 364px;
+  height: 128px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #717171;
+}
+
+#post-jobs {
+  left: 115px;
+  top: -15px;
 }
 
 #plus-circle-jobs {
   left: 105px;
 }
 
-.post-jobs-text-div {
+#post-jobs-text-div {
   position: absolute;
   width: 420px;
   height: 176px;
@@ -1087,21 +837,12 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.post-jobs-text {
-  position: absolute;
-  width: 364px;
-  height: 128px;
+#post-jobs-text {
   left: 40px;
   top: 0px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  color: #717171;
 }
 
-.category-card-advertise-programs {
+#category-card-advertise-programs {
   position: absolute;
   width: 420px;
   height: 272px;
@@ -1109,7 +850,7 @@
   top: 0px;
 }
 
-.category-title-icon-div-advertise-programs-container {
+#category-title-icon-div-advertise-programs-container {
   position: absolute;
   width: 420px;
   height: 96px;
@@ -1117,15 +858,9 @@
   top: 0px;
 }
 
-.category-title-and-icon-advertise-programs {
-  position: absolute;
-  width: 420px;
-  height: 96px;
+#category-title-and-icon-advertise-programs {
   left: 200px;
   top: 1448px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  background: #888888;
 }
 
 .feather-monitor {
@@ -1139,22 +874,12 @@
   color: white;
 }
 
-.advertise-programs {
-  position: absolute;
-  width: 240px;
-  height: 64px;
+#advertise-programs {
   left: 115px;
   top: -20px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 36px;
-  text-align: center; 
-  color: #EDEDED;  
 }
 
-.advertise-programs-text-div {
+#advertise-programs-text-div {
   position: absolute;
   width: 420px;
   height: 176px;
@@ -1166,21 +891,11 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.advertise-programs-text {
-  position: absolute;
-  width: 364px;
-  height: 128px;
+#advertise-programs-text {
   left: 40px;
-  /* top: 1560px; */
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  color: #717171;
 }
 
-.category-card-find-talent {
+#category-card-find-talent {
   position: absolute;
   width: 420px;
   height: 272px;
@@ -1188,7 +903,7 @@
   top: 1500px;
 }
 
-.category-title-icon-div-find-talent-container {
+#category-title-icon-div-find-talent-container {
   position: absolute;
   width: 420px;
   height: 96px;
@@ -1196,15 +911,9 @@
   top: -52px;
 }
 
-.category-title-and-icon-find-talent {
-  position: absolute;
-  width: 420px;
-  height: 96px;
+#category-title-and-icon-find-talent {
   left: 1000px;
   top: 0px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  background: #888888;
 }
 
 #find-talent-feather-search {
@@ -1218,7 +927,7 @@
   color: white;
 }
 
-.find-talent-text-div {
+#find-talent-text-div {
   position: absolute;
   width: 420px;
   height: 176px;
@@ -1230,35 +939,16 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.find-talent {
-  position: absolute;
-  width: 240px;
-  height: 64px;
+#find-talent {
   left: 150px;
   top: -12px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 36px; 
   display: flex;
   align-items: center;
-  text-align: center;
-  color: #EDEDED;
 }
 
-.find-talent-text {
-  position: absolute;
-  width: 364px;
-  height: 128px;
+#find-talent-text {
   left: 40px;
   top: -2px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 28px;
-  color: #717171;
 }
 
 #subscribers-companies-categories {

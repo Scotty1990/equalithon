@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
     return (
-        <div className='nav-bar'>
-            <p className='nav-bar-gd'>Global Deeds</p>
-            <div className='faq-div'>
-                <Link to="faq" className="faq-link">FAQ</Link>
+        <div id='nav-bar'>
+            <p id='nav-bar-gd'>Global Deeds</p>
+            <div id='faq-div' className='nav-bar-links-divs'>
+                <Link to="faq" id="faq-link" className='nav-bar-links'>FAQ</Link>
             </div>
-            <div className='login-div'>
-                <Link to="login" className="login-link">Login</Link>
+            <div id='login-div' className='nav-bar-links-divs'>
+                <Link to="login" id="login-link" className='nav-bar-links'>Login</Link>
             </div>
-            <div className='signup-div'>
-                <Link to="signup" className="signup-link">Signup</Link>
+            <div id='signup-div' className='nav-bar-links-divs'>
+                <Link to="signup" id="signup-link" className='nav-bar-links'>Signup</Link>
             </div>
         </div>
     );
