@@ -63,6 +63,7 @@ function CompaniesSchoolsNonprofits(props) {
                             stroke-linecap="round" 
                             stroke-linejoin="round" 
                             class="feather feather-monitor"
+                            id="feather-monitor"
                         ><rect 
                             x="2" 
                             y="3" 
