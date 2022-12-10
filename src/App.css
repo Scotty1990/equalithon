@@ -1,3 +1,5 @@
+/* Top Nav Bar */
+
 #nav-bar {
   position: absolute;
   width: 1440px;
@@ -85,6 +87,8 @@
   width: 67px;
   height: 28px;
 }
+
+/* Top div */
 
 .header-text {
   position: absolute;
@@ -228,6 +232,8 @@
   top: 13px;
 }
 
+/* Welcome div */
+
 #video-banner-div {
   position: absolute;
   width: 1440px;
@@ -323,6 +329,8 @@
   height: 256px;
 }
 
+/* Students / Individuals */
+
 #students-individuals-div {
   display: flex;
   flex-direction: row;
@@ -369,19 +377,19 @@
   color: white;
 }
 
-#top {
+#top-more-icon {
   position: inherit;
   top: -2px;
   left: 5px;
 }
 
-#middle {
+#middle-more-icon {
   position: relative;
   top: 5px;
   left: 5px;
 }
 
-#bottom {
+#bottom-more-icon {
   position: relative;
   top: -15px;
   left: 5px;
@@ -734,6 +742,8 @@
   top: 266px;
 }
 
+/* Companies / School / Nonprofits */
+
 #companies-school-nonprofits-div {
   display: flex;
   flex-direction: row;
@@ -951,6 +961,8 @@
   top: -2px;
 }
 
+/* Subscribers Companies Categories */
+
 #subscribers-companies-categories {
   position: absolute;
   width: 1440px;
@@ -1116,6 +1128,8 @@
   position: absolute;
   top: 288px;
 }
+
+/* Bottom Nav */
 
 #bottom-nav {
   position: absolute;
