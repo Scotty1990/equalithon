@@ -17,7 +17,7 @@ function StudentsIndividualsCards(props) {
             stroke-linecap="round" 
             stroke-linejoin="round" 
             class="feather feather-more-horizontal"
-            id="top"
+            id="top-more-icon"
             ><circle 
             cx="12" 
             cy="12" 
@@ -42,7 +42,7 @@ function StudentsIndividualsCards(props) {
             stroke-linecap="round" 
             stroke-linejoin="round" 
             class="feather feather-more-horizontal"
-            id="middle"
+            id="middle-more-icon"
             ><circle 
             cx="12" 
             cy="12" 
@@ -67,7 +67,7 @@ function StudentsIndividualsCards(props) {
             stroke-linecap="round" 
             stroke-linejoin="round" 
             class="feather feather-more-horizontal"
-            id="bottom"
+            id="bottom-more-icon"
             ><circle 
             cx="12" 
             cy="12" 
