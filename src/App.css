@@ -364,10 +364,10 @@
 
 #students-individuals-icon {
   position: absolute;
-  width: 34px;
-  height: 34px;
+  width: 56px;
+  height: 56px;
   left: 1258px;
-  top: 930px; 
+  top: 910px; 
   border-radius: 50%;
   background-color: orange;
   
@@ -379,20 +379,20 @@
 
 #top-more-icon {
   position: inherit;
-  top: -2px;
-  left: 5px;
+  top: 7px;
+  left: 15px;
 }
 
 #middle-more-icon {
   position: relative;
-  top: 5px;
-  left: 5px;
+  top: 15px;
+  left: 15px;
 }
 
 #bottom-more-icon {
   position: relative;
-  top: -15px;
-  left: 5px;
+  top: 23px;
+  left: -9px;
 }
 
 #category-card-earn-money {
@@ -424,11 +424,13 @@
 
 .feather-dollar-sign {
   position: absolute;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   border: 1px solid #FFFFFF;
   padding: 4px;
-  left: 50px;
-  top: 30px;
+  left: 20px;
+  top: 18px;
   color: white;
   background-color: orange;
 }
@@ -569,6 +571,8 @@
 
 .feather-plus-circle {
   position: absolute;
+  width: 48px;
+  height: 48px;
   top: 30px;
   left: 120px;;
   border-radius: 50%;
@@ -576,6 +580,11 @@
   padding: 4px;
   color: white;
   background-color: orange;
+}
+
+#feather-plus-circle-emergency {
+  left: 95px;
+  top: 18px;
 }
 
 #emergency-resources {
@@ -672,6 +681,13 @@
   padding: 4px;
   background-color: orange;
   color: white;
+}
+
+#feather-cloud {
+  width: 48px;
+  height: 48px;
+  top: 20px;
+  left: 70px;
 }
 
 #learn-network {
@@ -832,7 +848,8 @@
 }
 
 #plus-circle-jobs {
-  left: 105px;
+  left: 80px;
+  top: 22px;
 }
 
 #post-jobs-text-div {
@@ -875,13 +892,18 @@
 
 .feather-monitor {
   position: absolute;
-  top: 30px;
-  left: 100px;
+  top: 18px;
+  left: 75px;
   border-radius: 50%;
   border: 1px solid #FFFFFF;
   padding: 4px;
   background-color: orange;
   color: white;
+}
+
+#feather-monitor {
+  width: 48px;
+  height: 48px;
 }
 
 #advertise-programs {
@@ -928,8 +950,10 @@
 
 #find-talent-feather-search {
   position: absolute;
-  top: 30px;
-  left: 100px;
+  top: 18px;
+  left: 80px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   border: 1px solid #FFFFFF;
   padding: 4px;
@@ -1027,6 +1051,7 @@
   height: 48px;
   left: 4px;
   top: 98px;
+  font-weight: 700;
 }
 
 #subscribers-text {
@@ -1073,6 +1098,7 @@
   position: absolute;
   top: 100px;
   left: 148px;
+  font-weight: 700;
 }
 
 #companies-text {
@@ -1116,6 +1142,7 @@
   position: absolute;
   top: 95px;
   left: 155px;
+  font-weight: 700;
 }
 
 #categories-text {

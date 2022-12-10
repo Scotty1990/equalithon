@@ -19,8 +19,8 @@ function BottomNav(props) {
                             <p id="email-and-phone-messaging">• 24/7 Email and Phone Messaging</p>
                             <p id="by-appointment-only">• By Appointment Only</p>
                     </ul>
-                    <p id="contact-us">Contact#contatUS</p>
-                    <p id="phone-number">800-41-DEEDS x2</p>
+                    <p id="contact-us">Contact#contactUS</p>
+                    <p id="phone-number">Phone: 800-41-DEEDS x2</p>
                     <p id="email">Email: info@globaldeeds.org</p>
                     <svg 
                             xmlns="http://www.w3.org/2000/svg" 
