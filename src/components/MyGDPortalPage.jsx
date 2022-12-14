@@ -1,22 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
-import Logo from './pics/logo-main.jpeg'
+import NavBar from './NavBar';
+import GDHeader from './GDHeader';
+import StudentsIndividualsCards from './StudentsIndividualsCards';
+import CompaniesSchoolsNonprofits from './CompaniesSchoolsNonprofits';
+import SubscribersCompanies from './SubscribersCompanies';
+import BottomNav from './BottomNav';
+import VideoBanner from './VideoBanner';
 
-function MyGDPortalPage(props) {
+function MyGDPortalPage() {
     return (
         <div>
-            <img src={Logo} id="gd-logo" />
-            <Link to="faq" id="faq-link">FAQ</Link>
-            <Link to="login" id="login">Login</Link>
-            <Link to="signup" id="signup">Signup</Link>
-            <div id="gd-header">
-                <h1>Global Deeds</h1>
-                <p>Your global opportunity search provider</p>
-                <p>Find reliable educational, employment and emergency resources here and rise to THE TOP!</p>
-                <form>
-                    <input id="search-text" type="text"></input>
-                </form>
-            </div>
+            <NavBar />
+            <GDHeader />
+            <VideoBanner />
+            <StudentsIndividualsCards />
+            <CompaniesSchoolsNonprofits />
+            <SubscribersCompanies />
+            <BottomNav />
         </div>
     );
 }
