@@ -5,6 +5,13 @@ const UserSchema = new mongoose.Schema({
   userName: { type: String, unique: true },
   email: { type: String, unique: true },
   password: String,
+  fullName: {type: String, require: true},
+  birth: {type: Date, require: true},
+  gender: {type: String, require: true},
+  pronouns: {type: String, require: true},
+  address: {type: String, require: true},
+  city: {type: String, require: true},
+  zipCode: {type: String, require: true},
 });
 
 // Password hash middleware.
