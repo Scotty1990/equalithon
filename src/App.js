@@ -5,7 +5,7 @@ import GDPortalPosts from './components/GDPortalPosts';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">      
       <Route exact path="/" component={MyGDPortalPage} />
       <Route exact path="/jobs" component={GDPortalPosts} />
     </div>

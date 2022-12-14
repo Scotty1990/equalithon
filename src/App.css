@@ -14,7 +14,7 @@
   width: 130px;
   height: 28px;
   left: 70px;
-  top: 9px;
+  top: 29px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -50,7 +50,7 @@
   width: 92px;
   height: 56px;
   left: 1060px;
-  top: 5px;
+  top: 13px;
 }
 
 #faq-link {
@@ -62,8 +62,8 @@
   padding: 13px 20px;
   width: 93px;
   height: 56px;
-  left: 1129px;
-  top: 4px;
+  left: 1133px;
+  top: 13px;
 }
 
 #login-link {
@@ -84,8 +84,11 @@
 }
 
 #signup-link {
+  position: absolute;
   width: 67px;
   height: 28px;
+  top: 10px;
+  left: 33px;
 }
 
 /* Top div */
@@ -137,9 +140,9 @@
   gap: 10px;
 
   position: absolute;
-  width: 230px;
+  width: 211px;
   height: 44px;
-  left: 357px;
+  left: 359px;
   top: 405px;
 }
 
@@ -168,9 +171,9 @@
 
   position: absolute;
   width: 230px;
-  height: 44px;
-  left: 610px;
-  top: 405px;
+  height: 38px;
+  left: 605px;
+  top: 408px;
 
   border: 1px solid #464646;
   border-radius: 0px 4px 4px 0px;
@@ -187,9 +190,9 @@
 
   position: absolute;
   width: 200px;
-  height: 44px;
-  left: 839px;
-  top: 405px;
+  height: 40px;
+  left: 834px;
+  top: 407px;
   background: #0E408B;
   border: 1px solid #E7ECF3;
   border-radius: 4px;
@@ -210,6 +213,7 @@
 }
 
 #find-btn-text {
+  position: relative;
   width: 33px;
   height: 20px;
   font-family: 'Inter';
@@ -221,7 +225,7 @@
   flex: none;
   order: 1;
   flex-grow: 0;
-
+  top: 7px;
 }
 
 #search-icon {
@@ -284,13 +288,14 @@
   width: 200px;
   height: 50px;
   left: 510px;
-  top: 280px;
+  top: 288px;
   background: #FF8400;
   border: 1px solid #FFF3E6;
   border-radius: 4px;
 }
 
 #learn-more-text {
+  position: relative;
   width: 87px;
   height: 20px;
   font-family: 'Inter';
@@ -302,6 +307,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  top: 7px;
 }
 
 #video {
@@ -369,94 +375,34 @@
   top: 910px; 
   border-radius: 50%;
   background-color: orange;
-  
+  color: orange;
 }
 
-/* #icon-menu {
-  width: 400px;
-  height: 400px;
-  background-color: black;
+#dropdown-icons {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  color: orange;
+  background-color: orange;
+  border: none;
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}
+
+/* .icon-menu-texts {
+  position: absolute;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #464646; 
 } */
 
-#icon-menu-container {
-  height: 1000px;
-  width: 1000px;
-}
-
-.modal {
-  position: absolute;
-  width: 260px;
-  height: 462.05px;
-  left: 1200px;
-  top: 430px;
-  right: 0;
-  bottom: 0;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  /* background-color: rgba(0, 0, 0, 0.5); */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.modal-content {
-  width: 500px;
-  background-color: #fff;
-}
-
-.modal-body {
-  padding: 10px;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-}
-
-#close-div {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-
-#close-div:after {
-  display: inline-block;
-  content: "\00d7"; /* This will render the 'X' */
-}
-
-/* #icon-menu {
-  display: none;
-}
-
-#icon-menu a:hover {background-color: #ddd;}
-#students-individuals-icon:hover #icon-menu {display: block;} */
-
-/* #icon-menu-dropdown {
-  position: absolute;
-  top: -10000px;
-} */
-
-/* .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.stdropdownuff:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;} */
-
-.icon-menu-texts {
-  position: absolute;
+.icon-menu-dropdowns p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -467,10 +413,12 @@
 }
 
 .icon-menu-lines {
-  position: absolute;
+  position: relative;
   width: 200px;
   height: 0px;
   border: 2px solid #888888;
+  top: -10px;
+  left: 20px;
 }
 
 #view-profile-text {
@@ -480,7 +428,9 @@
 }
 
 #view-profile-line {
-  top: 70px;
+  position: relative;
+  top: -12px;
+  left: 20px;
 }
 
 #scholarships-text {
@@ -492,13 +442,14 @@
 /* scholarships-line wouldn't work so renamed it to 'a' */
 
 #a {
-  top: 130px;
+  top: -10px;
+  left: 20px;
 }
 
 /* shelters-line same thing happened renamed to 'b' */
 
 #b {
-  top: 180px;
+  /* top: 180px; */
 }
 
 /* #scholarships-line {
@@ -517,7 +468,7 @@
 }
 
 #shelters-line {
-  top: 400px;
+  /* top: 400px; */
 }
 
 #job-opportunities-text {
@@ -527,7 +478,7 @@
 }
 
 #job-opportunities-line {
-  top: 240px;
+  /* top: 240px; */
 }
 
 #internship-opportunities-text {
@@ -537,7 +488,7 @@
 }
 
 #internship-opportunites-line {
-  top: 320px
+  /* top: 320px */
 }
 
 #networking-opportunities-text {
@@ -547,17 +498,17 @@
 }
 
 #networking-opportunities-line {
-  top: 400px;
+  /* top: 400px; */
 }
 
-#free-food-texts {
+#free-food-text {
   width: 196px;
   height: 56px;
   top: 400px;
 }
 
 #free-food-in-your-area-line {
-  top: 450px;
+  /* top: 450px; */
 }
 
 .feather-more-horizontal {
@@ -565,65 +516,25 @@
 }
 
 #top-more-icon {
-  position: inherit;
-  top: 7px;
-  left: 15px;
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
 #middle-more-icon {
   position: relative;
-  top: 15px;
-  left: 15px;
+  top: -1px;
+  left: 4px;
 }
 
 #bottom-more-icon {
   position: relative;
-  top: 23px;
-  left: -9px;
-}
-
-#category-card-earn-money {
-  position: absolute;
-  width: 420px;
-  height: 376px;
-  left: 70px;
-  top: 962px;
-}
-
-
-#category-title-icon-div-earn-money-container {
-  position: absolute;
-  width: 420px;
-  height: 96px;
-  left: 70px;
-  top: 10px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  background: #888888;
-}
-
-#category-title-and-icon-earn-money {
-  position: absolute;
-  width: 420px;
-  height: 96px;
-  left: 70px;
-}
-
-.feather-dollar-sign {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  border: 1px solid #FFFFFF;
-  padding: 4px;
-  left: 20px;
-  top: 18px;
-  color: white;
-  background-color: orange;
+  top: 7px;
+  left: -20px;
 }
 
 .category-title-texts {
-  position: absolute;
+  position: relative;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -645,6 +556,48 @@
   color: #717171;
 }
 
+#category-card-earn-money {
+  position: relative;
+  width: 420px;
+  height: 376px;
+  left: 70px;
+  top: 962px;
+  align-items: center;
+}
+
+
+#category-title-icon-div-earn-money-container {
+  position: relative;
+  width: 420px;
+  height: 96px;
+  left: 70px;
+  top: 10px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background: #888888;
+}
+
+#category-title-and-icon-earn-money {
+  position: relative;
+  width: 420px;
+  height: 96px;
+  left: 70px;
+  top: 2px;
+}
+
+.feather-dollar-sign {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  padding: 4px;
+  left: 20px;
+  top: 18px;
+  color: white;
+  background-color: orange;
+}
+
 .listings-lines {
   position: absolute;
   width: 364px;
@@ -656,7 +609,7 @@
   width: 240px;
   height: 64px;
   left: 95px;
-  top: -15px;
+  top: 11px;
   display: flex;
   align-items: center;
 }
@@ -666,7 +619,7 @@
   width: 420px;
   height: 280px;
   left: 70px;
-  top: 107px;
+  top: 106px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   background: #EDEDED;
@@ -682,7 +635,7 @@
 
 #jobs {
   left: -40px;
-  top: -110px;
+  top: -90px;
 }
 
 #jobs-line {
@@ -692,7 +645,7 @@
 
 #internships {
   left: -40px;
-  top: -55px;
+  top: -35px;
 }
 
 #internships-line {
@@ -702,7 +655,7 @@
 
 #summer-programs {
   left: -40px;
-  top: 0px;
+  top: 20px;
 }
 
 #summer-programs-line {
@@ -712,7 +665,7 @@
 
 #scholarships {
   left: -40px;
-  top: 55px;
+  top: 75px;
 }
 
 #scholarships-line {
@@ -722,7 +675,7 @@
 
 #financial-assistance {
   left: -40px;
-  top: 110px;
+  top: 130px;
 }
 
 #financial-assistance-line {
@@ -771,14 +724,14 @@
 
 #feather-plus-circle-emergency {
   left: 95px;
-  top: 18px;
+  top: 22px;
 }
 
 #emergency-resources {
   width: 240px;
   height: 64px;
   left: 115px;
-  top: -15px;
+  top: 10px;
 }
 
 #category-listings-emergency-listings {
@@ -794,7 +747,7 @@
 
 #shelters {
   left: 30px;
-  top: -13px;
+  top: 7px;
 }
 
 #shelters-line {
@@ -804,7 +757,7 @@
 
 #housing-opportunities {
   left: 30px;
-  top: 42px;
+  top: 62px;
 }
 
 #housing-opportunities-line {
@@ -814,7 +767,7 @@
 
 #emergency-aid {
   left: 30px;
-  top: 97px;
+  top: 117px;
 }
 
 #emergency-aid-line {
@@ -824,7 +777,7 @@
 
 #hotlines {
   left: 30px;
-  top: 152px;
+  top: 172px;
 }
 
 #hotlines-line {
@@ -873,7 +826,7 @@
 #feather-cloud {
   width: 48px;
   height: 48px;
-  top: 20px;
+  top: 22px;
   left: 70px;
 }
 
@@ -881,7 +834,7 @@
   width: 240px;
   height: 64px;
   left: 105px;
-  top: -15px;
+  top: 10px;
 }
 
 #category-listings-learn-network {
@@ -897,52 +850,52 @@
 
 #conferences {
   left: 30px;
-  top: -14px;
+  top: 6px;
 }
 
 #conferences-line {
   left: 30px;
-  top: 46px;
+  top: 47px;
 }
 
 #speaker-series {
   left: 30px;
-  top: 41px;
+  top: 61px;
 }
 
 #speaker-series-line {
   left: 30px;
-  top: 101px;
+  top: 102px;
 }
 
 #find-mentor {
   left: 30px;
-  top: 96px;
+  top: 116px;
 }
 
 #find-mentor-line {
   left: 30px;
-  top: 156px;
+  top: 157px;
 }
 
 #volunteer-community-work {
   left: 30px;
-  top: 151px;
+  top: 171px;
 }
 
 #volunteer-community-work-line {
   left: 30px;
-  top: 211px;
+  top: 212px;
 }
 
 #calendar-local-activities {
   left: 30px;
-  top: 206px;
+  top: 226px;
 }
 
 #calendar-local-activities-line {
   left: 30px;
-  top: 266px;
+  top: 267px;
 }
 
 /* Companies / School / Nonprofits */
@@ -981,6 +934,7 @@
   width: 420px;
   height: 272px;
   left: 0px;
+  top: 0px;
 }
 
 #category-title-icon-div-post-jobs-container {
@@ -1031,7 +985,7 @@
 
 #post-jobs {
   left: 115px;
-  top: -15px;
+  top: 10px;
 }
 
 #plus-circle-jobs {
@@ -1053,7 +1007,7 @@
 
 #post-jobs-text {
   left: 40px;
-  top: 0px;
+  top: 10px;
 }
 
 #category-card-advertise-programs {
@@ -1091,11 +1045,12 @@
 #feather-monitor {
   width: 48px;
   height: 48px;
+  top: 22px;
 }
 
 #advertise-programs {
   left: 115px;
-  top: -20px;
+  top: 10px;
 }
 
 #advertise-programs-text-div {
@@ -1112,6 +1067,7 @@
 
 #advertise-programs-text {
   left: 40px;
+  top: 10px;
 }
 
 #category-card-find-talent {
@@ -1137,8 +1093,8 @@
 
 #find-talent-feather-search {
   position: absolute;
-  top: 18px;
-  left: 80px;
+  top: 22px;
+  left: 100px;
   width: 48px;
   height: 48px;
   border-radius: 50%;
@@ -1161,15 +1117,15 @@
 }
 
 #find-talent {
-  left: 150px;
-  top: -12px;
+  left: 170px;
+  top: 15px;
   display: flex;
   align-items: center;
 }
 
 #find-talent-text {
   left: 40px;
-  top: -2px;
+  top: 10px;
 }
 
 /* Subscribers Companies Categories */
@@ -1237,7 +1193,7 @@
   width: 310px;
   height: 48px;
   left: 4px;
-  top: 98px;
+  top: 120px;
   font-weight: 700;
 }
 
@@ -1246,7 +1202,7 @@
   width: 310px;
   height: 48px;
   left: 8px;
-  top: 160px;
+  top: 180px;
 }
 
 #orange-bottom-subscribers {
@@ -1283,14 +1239,14 @@
 
 #companies-number {
   position: absolute;
-  top: 100px;
+  top: 122px;
   left: 148px;
   font-weight: 700;
 }
 
 #companies-text {
   position: absolute;
-  top: 160px;
+  top: 182px;
   left: 80px;
 }
 
@@ -1327,14 +1283,14 @@
 
 #categories-number {
   position: absolute;
-  top: 95px;
+  top: 122px;
   left: 155px;
   font-weight: 700;
 }
 
 #categories-text {
   position: absolute;
-  top: 160px;
+  top: 182px;
   left: 80px;
 }
 
@@ -1377,7 +1333,7 @@
   width: 117px;
   height: 28px;
   left: 290px;
-  top: 40px;
+  top: 80px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -1391,7 +1347,7 @@
   width: 73px;
   height: 20px;
   left: 290px;
-  top: 80px;
+  top: 110px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1406,7 +1362,7 @@
   width: 92px;
   height: 20px;
   left: 290px;
-  top: 100px;
+  top: 130px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1421,7 +1377,7 @@
   width: 104px;
   height: 20px;
   left: 290px;
-  top: 120px;
+  top: 150px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1436,7 +1392,7 @@
   width: 123px;
   height: 20px;
   left: 290px;
-  top: 140px;
+  top: 170px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1451,7 +1407,7 @@
   width: 122px;
   height: 20px;
   left: 290px;
-  top: 160px;
+  top: 190px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1466,7 +1422,7 @@
   width: 114px;
   height: 20px;
   left: 290px;
-  top: 180px;
+  top: 210px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1482,7 +1438,7 @@
   width: 193px;
   height: 28px;
   left: 637px;
-  top: 40px;
+  top: 80px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -1496,7 +1452,7 @@
   width: 297px;
   height: 20px;
   left: 637px;
-  top: 80px;
+  top: 110px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1511,7 +1467,7 @@
   width: 195px;
   height: 20px;
   left: 637px;
-  top: 100px;
+  top: 130px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1526,7 +1482,7 @@
   width: 113px;
   height: 28px;
   left: 1060px;
-  top: 40px;
+  top: 80px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1550,7 +1506,7 @@
   width: 195px;
   height: 20px;
   left: 1060px;
-  top: 80px;
+  top: 110px;
   
   font-family: 'Poppins';
   font-style: normal;
@@ -1565,7 +1521,7 @@
   width: 232px;
   height: 20px;
   left: 1060px;
-  top: 100px;
+  top: 130px;
   
   font-family: 'Poppins';
   font-style: normal;
