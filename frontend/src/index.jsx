@@ -3,20 +3,18 @@ import ReactDOM from 'react-dom/client';
 import {
   createBrowserRouter,
   RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
+  } 
+from "react-router-dom";
 import './style.css';
-import App from './App';
+import './App.css';
 import Root from './routes/Root';
 import ErrorPage from './routes/ErrorPage';
-import Login from './routes/Login';
 import Signup from './routes/Signup';
-import Index from './routes/Index';
 import { Profile } from './routes/Profile';
 import Logout from './routes/Logout';
-import Feed from './routes/Feed';
-import Post from './routes/Post';
+import LoginForm from './routes/LoginForm';
+import MyGDPortalPage from './routes/MyGDPortalPage';
+import Index from './routes/Index';
 
 const router = createBrowserRouter([
   {
@@ -26,11 +24,11 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Index />
+        element: <Index />,
       },
       {
         path: "/login",
-        element: <Login />,
+        element: <LoginForm />,
       },
       {
         path: "/logout",
@@ -45,13 +43,10 @@ const router = createBrowserRouter([
         element: <Profile />,
       },
       {
-        path: "/feed",
-        element: <Feed />,
+        path: "/home",
+        element: <MyGDPortalPage />,
       },
-      {
-        path: "/post/:id",
-        element: <Post />,
-      },
+      
     ]
   },
 ]);

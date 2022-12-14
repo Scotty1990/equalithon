@@ -17,7 +17,7 @@ export default function Login() {
 		if (json.messages) setMessages(json.messages);
 		if (json.user) {
 			setUser(json.user);
-			navigate("/profile");
+			navigate("/home");
 		}
 	};
 
@@ -27,7 +27,7 @@ export default function Login() {
 				<section className="col-6 mt-5">
 					<form action="/login" method="POST" onSubmit={handleSubmit}>
 						<div className="mb-3">
-							<label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
+							<label  className="form-label">Email address</label>
 							<input
 								type="email"
 								className="form-control"
@@ -37,7 +37,7 @@ export default function Login() {
 							/>
 						</div>
 						<div className="mb-3">
-							<label htmlFor="exampleInputPassword1" className="form-label">Password</label>
+							<label  className="form-label">Password</label>
 							<input
 								type="password"
 								className="form-control"

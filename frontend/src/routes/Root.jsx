@@ -28,7 +28,7 @@ export default function Root() {
     <>
       <header className="container">
         <div className="text-center">
-          <h1 className=""><Link to={user ? '/profile' : '/'}>test</Link></h1>
+          <h1 className=""><Link to={user ? '/home' : '/'}>test</Link></h1>
           <span>test</span>
         </div>
       </header>

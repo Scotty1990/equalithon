@@ -1,11 +1,13 @@
 import React from 'react'
 import "./profileMain.css"
+import NavBar from '../NavBar'
 
 
 const ProfileMain = ({ name, phone, email, address, }) => {
 
   return (
     <>
+    <NavBar />
     <div className="rectangle210">
       <div className="ellipse20">
         <img className='profileImg' src="http://pm1.narvii.com/7258/5520799cf0539b408bd8abee0a14d3a492ee5107r1-753-753v2_uhq.jpg" alt="profileName" />
