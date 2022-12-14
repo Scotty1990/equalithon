@@ -1,12 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
+import IconMenu from './IconMenu';
 
 function StudentsIndividualsCards(props) {
+    const [showIconMenu, setShowIconMenu] = useState(false)
+
+    function studentsIndividualsIconMenu() {
+        setShowIconMenu(true)
+        console.log("here")
+    }
     return (
         <div>
             <div id='students-individuals-div'>
                 <p id='students-individuals-text'>Students / Individuals</p>
             </div>
-            <div id='students-individuals-icon'>
+
+            <IconMenu 
+                onClose={() => setShowIconMenu(false)}
+                showIconMenu={showIconMenu}  
+                setShowIconMenu={setShowIconMenu}              
+            />
+            <div id='students-individuals-icon' onClick={studentsIndividualsIconMenu}>
             <svg 
             xmlns="http://www.w3.org/2000/svg" width="24" 
             height="24" 
@@ -81,6 +94,13 @@ function StudentsIndividualsCards(props) {
             cy="12" 
             r="1"
             /></svg>
+            {/* <div className='stuff'>
+                <div className='stuff-content'>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div> */}
             </div>
             <div id='category-card-earn-money'>
                 <div id='category-title-icon-div-earn-money-container'>
