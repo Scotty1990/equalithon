@@ -147,8 +147,10 @@
 }
 
 #search-text-input-field {
+  position: absolute;
   width: 230px;
-  height: 38px;
+  height: 36px;
+  left: 15px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
@@ -158,6 +160,9 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  outline: solid;
+  outline-width: 1px;;
+  outline-color: black;
 }
 
 #dropdown-div {
