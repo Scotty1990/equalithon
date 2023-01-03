@@ -2,7 +2,7 @@ import React from "react";
 
 function Payment(){
     return(
-        <div>
+        <div className='form'>
             <h1>Payment Info</h1>
             <h3>Please complete below and verify before proceeding.</h3>
             <h4>A payment of $1.00 is required to conitnue, even the free option</h4>
