@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import NavBar from './NavBar';
 import GDHeader from './GDHeader';
 import StudentsIndividualsCards from './StudentsIndividualsCards';
@@ -8,12 +8,22 @@ import BottomNav from './BottomNav';
 import VideoBanner from './VideoBanner';
 
 function MyGDPortalPage() {
+    const [showIconMenu, setShowIconMenu] = useState(false)
+
+    function run() {
+        setShowIconMenu(false)
+        onclose()
+    }
+
     return (
-        <div>
+        <div onClick={() => setShowIconMenu(false)}>
             <NavBar />
             <GDHeader />
             <VideoBanner />
-            <StudentsIndividualsCards />
+            <StudentsIndividualsCards 
+                showIconMenu={showIconMenu}
+                setShowIconMenu={setShowIconMenu}
+            />
             <CompaniesSchoolsNonprofits />
             <SubscribersCompanies />
             <BottomNav />

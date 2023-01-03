@@ -1,91 +1,142 @@
-import React from 'react';
+import React, { useState } from 'react';
+import IconMenu from './IconMenu';
+import Dropdown from 'react-bootstrap/Dropdown'
+import { SplitButton } from 'react-bootstrap';
 
 function StudentsIndividualsCards(props) {
+    const [showIconMenu, setShowIconMenu] = useState(false)
+
+    function studentsIndividualsIconMenu() {
+        setShowIconMenu(true)
+        console.log("here")
+    }
     return (
         <div>
             <div id='students-individuals-div'>
                 <p id='students-individuals-text'>Students / Individuals</p>
             </div>
-            <div id='students-individuals-icon'>
-            <svg 
-            xmlns="http://www.w3.org/2000/svg" width="24" 
-            height="24" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            stroke-width="2" 
-            stroke-linecap="round" 
-            stroke-linejoin="round" 
-            class="feather feather-more-horizontal"
-            id="top-more-icon"
-            ><circle 
-            cx="12" 
-            cy="12" 
-            r="1"
-            /><circle 
-            cx="19" 
-            cy="12" 
-            r="1"
-            /><circle 
-            cx="5" 
-            cy="12" 
-            r="1"
-            /></svg>
-            <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            width="24" 
-            height="24" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            stroke-width="2" 
-            stroke-linecap="round" 
-            stroke-linejoin="round" 
-            class="feather feather-more-horizontal"
-            id="middle-more-icon"
-            ><circle 
-            cx="12" 
-            cy="12" 
-            r="1"
-            /><circle 
-            cx="19" 
-            cy="12" 
-            r="1"
-            /><circle 
-            cx="5" 
-            cy="12" 
-            r="1"
-            /></svg>
-            <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            width="24" 
-            height="24" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            stroke-width="2" 
-            stroke-linecap="round" 
-            stroke-linejoin="round" 
-            class="feather feather-more-horizontal"
-            id="bottom-more-icon"
-            ><circle 
-            cx="12" 
-            cy="12" 
-            r="1"
-            /><circle 
-            cx="19" 
-            cy="12" 
-            r="1"
-            /><circle 
-            cx="5" 
-            cy="12" 
-            r="1"
-            /></svg>
+            <div id='students-individuals-icon' onClick={studentsIndividualsIconMenu}>
+                <Dropdown>
+                    <Dropdown.Toggle id="dropdown-icons">
+                        <svg 
+                        xmlns="http://www.w3.org/2000/svg" width="24" 
+                        height="24" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        class="feather feather-more-horizontal"
+                        id="top-more-icon"
+                    ><circle 
+                        cx="12" 
+                        cy="12" 
+                        r="1"
+                    /><circle 
+                        cx="19" 
+                        cy="12" 
+                        r="1"
+                    /><circle 
+                        cx="5" 
+                        cy="12" 
+                        r="1"
+                        /></svg>
+                        <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="24" 
+                        height="24" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        class="feather feather-more-horizontal"
+                        id="middle-more-icon"
+                    ><circle 
+                        cx="12" 
+                        cy="12" 
+                        r="1"
+                    /><circle 
+                        cx="19" 
+                        cy="12" 
+                        r="1"
+                    /><circle 
+                        cx="5" 
+                        cy="12" 
+                        r="1"
+                        /></svg>
+                        <svg 
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="24" 
+                        height="24" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        class="feather feather-more-horizontal"
+                        id="bottom-more-icon"
+                    ><circle 
+                        cx="12" 
+                        cy="12" 
+                        r="1"
+                    /><circle 
+                        cx="19" 
+                        cy="12" 
+                        r="1"
+                    /><circle 
+                        cx="5" 
+                        cy="12" 
+                        r="1"
+                        /></svg>
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu>                                                                                                          
+                        <Dropdown.Item href="#/view-profile" className="icon-menu-dropdowns">
+                            <p>View Profile</p>
+                            {/* <p id="view-profile-text" className='icon-menu-texts'>View Profile</p> */}
+                        </Dropdown.Item>
+                        <div id="view-profile-line" className='icon-menu-lines'></div>
+                        <Dropdown.Item href="#/scholarships" className="icon-menu-dropdowns">
+                            <p>Scholarships</p>
+                            {/* <p id="scholarships-text" className='icon-menu-texts'>Scholarships</p> */}
+                        </Dropdown.Item>
+                        <div id="a" className='icon-menu-lines'></div>
+                        <Dropdown.Item href="#/shelters" className="icon-menu-dropdowns">
+                            <p>Shelters</p>
+                            {/* <p id="shelters-text" className='icon-menu-texts'>Shelters</p> */}
+                        </Dropdown.Item>
+                            <div id="b" className='icon-menu-lines'></div>
+                        <Dropdown.Item href="#/job-opportunities" className="icon-menu-dropdowns">
+                            <p>Job Opportunities</p>
+                            {/* <p id="job-opportunities-text" className='icon-menu-texts'>Job Opportunities</p> */}
+                        </Dropdown.Item>
+                            <div id="job-opportunities-line" className='icon-menu-lines'></div>
+                        <Dropdown.Item href="#/internship-opportunities" className="icon-menu-dropdowns">
+                            <p>Internship Opportunities</p>
+                            {/* <p id="internship-opportunities-text" className='icon-menu-texts'>Internship Opportunities</p> */}
+                        </Dropdown.Item>
+                            <div id="internship-opportunites-line" className='icon-menu-lines'></div>
+                        <Dropdown.Item href="#/networking-opportunities" className="icon-menu-dropdowns">
+                            <p>Networking Opportunities</p>
+                            {/* <p id="networking-opportunities-text" className='icon-menu-texts'>Networking Opportunities</p> */}
+                        </Dropdown.Item>
+                            <div id="networking-opportunities-line" className='icon-menu-lines'></div>
+                        <Dropdown.Item href="#/free-food-in-your-area" className="icon-menu-dropdowns">
+                            <p>Free Food In Your Area</p>
+                            {/* <p id="free-food-text" className='icon-menu-texts'>Free Food In Your Area</p> */}
+                        </Dropdown.Item>
+                        <div id="free-food-in-your-area-line" className='icon-menu-lines'></div>
+                    </Dropdown.Menu>
+                </Dropdown>
             </div>
             <div id='category-card-earn-money'>
                 <div id='category-title-icon-div-earn-money-container'>
                     <div id='category-title-and-icon-earn-money'>
-                    <svg 
+                        <svg 
                     xmlns="http://www.w3.org/2000/svg" 
                     width="24" 
                     height="24" 
@@ -103,7 +154,7 @@ function StudentsIndividualsCards(props) {
                     y2="23"
                     /><path 
                     d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
-                    /></svg>
+                        /></svg>
                         <p id='earn-money' className='category-title-texts'>Earn Money</p>
                     </div>
                 </div>
@@ -125,7 +176,7 @@ function StudentsIndividualsCards(props) {
             <div id='category-card-emergency-listings'>
                 <div id='category-title-icon-div-emergency-resources-listings-container'>
                     <div id='category-title-and-icon-emergency-resources'>
-                    <svg 
+                        <svg 
                         xmlns="http://www.w3.org/2000/svg" 
                         width="24" 
                         height="24" 
@@ -151,7 +202,7 @@ function StudentsIndividualsCards(props) {
                         y1="12" 
                         x2="16" 
                         y2="12"
-                    /></svg>
+                        /></svg>
                         <p id='emergency-resources' className='category-title-texts'>Emergency Resources</p>
                     </div>
                 </div>

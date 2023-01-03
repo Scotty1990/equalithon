@@ -1,5 +1,4 @@
 import React from 'react';
-import Video from './pics/video.webp'
 
 function VideoBanner(props) {
     return (
@@ -14,7 +13,18 @@ function VideoBanner(props) {
                     individuals that can perform at the level you require.
                 </p>
                 <button id="learn-more"><p id="learn-more-text">Learn More</p></button>
-                <div id='video'><img id='video-img' src={Video} alt='video' /></div>
+                <div id='video'>
+                    <iframe 
+                        id="youtube-video"
+                        width="460"
+                        height="256"
+                        src={`https://youtube.com/embed/y3T16Mw7rns`}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        title="Global Deeds YouTube"
+                    />
+                </div>
             </div>
         </div>
     );
