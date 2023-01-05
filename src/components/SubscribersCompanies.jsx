@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/SubscribersCompanies.css';
 
 function SubscribersCompanies() {
     return (

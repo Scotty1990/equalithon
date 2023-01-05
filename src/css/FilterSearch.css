@@ -1,0 +1,579 @@
+#filter-search {
+    position: absolute;
+    width: 290px;
+    height: 850px;
+    left: 0px;
+    top: 136px;
+    background: #EDEDED;
+  }
+  
+  #filter-search-title {
+    position: relative;
+    top: 20px;
+    left: 28px;
+    width: 99px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+  
+#filter-search-line {
+    position: absolute;
+    width: 288px;
+    height: 0px;
+    left: 0px;
+    top: 60px;
+    border: 1px solid #464646; 
+}
+  
+  .filter-search-checkbox-categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 139px;
+    height: 32px;
+    
+    border-radius: 4px;
+  }
+  
+  .filter-search-checkbox-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646; 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  #checkbox-companies {
+    position: relative;
+    left: 70px;
+    top: 30px;
+  }
+  
+  #filter-search-companies {
+    position: relative;
+    width: 87px;
+    height: 20px;
+    top: 38px;
+    left: 70px;
+  }
+  
+  #filter-search-nonprofits {
+    position: relative;
+    top: 9px;
+    width: 81px;
+    height: 20px;
+  }
+  
+  #checkbox-nonprofits-label {
+    left: 67px;
+    top: 100px;
+  }
+  
+  .filter-parameters-texts {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .filter-search-parameter-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+    gap: 10px;
+    
+    position: relative;
+  }
+  
+  #filter-search-sort-type-container {
+    width: 182px;
+    height: 32px;
+    left: 8px;
+    top: 144px;
+  }
+  
+#filter-search-sort-type {
+    position: absolute;
+    width: 75px;
+    height: 20px;
+    top: -40px;
+    left: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+  /* .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  } */
+  
+.filter-search-checkbox-sort-type-categories {
+    /* position: relative; */
+    /* top: 80px; */
+}
+
+#checkbox-sort-type-relevant {
+    position: absolute;
+    top: -5px;
+    left: 77px;
+}
+
+#sort-type-relevant {
+    position: absolute;
+    top: -8px;
+    left: 100px;
+    width: 66px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#checkbox-sort-type-newest {
+    position: absolute;
+    top: 30px;
+    left: 77px;
+}
+
+#sort-type-newest {
+    position: absolute;
+    top: 27px;
+    left: 100px;
+    width: 59px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#checkbox-sort-type-oldest {
+    position: absolute;
+    top: 65px;
+    left: 77px;
+}
+
+#sort-type-oldest {
+    position: absolute;
+    top: 62px;
+    left: 100px;
+    width: 51px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#job-type-dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 131px;
+    height: 32px;
+    left: -4px;
+    top: 272px; 
+}
+
+#job-type {
+    width: 71px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+
+#checkbox-job-type-volunteer {
+    position: relative;
+    top: 235px;
+    left: 85px;
+}
+
+#job-type-volunteer {
+    position: relative;
+    width: 74px;
+    height: 20px;
+    top: 212px;
+    left: 108px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0; 
+}
+
+#checkbox-job-type-internship {
+    position: relative;
+    top: 270px;
+    left: 11px;
+}
+
+#job-type-internship {
+    width: 77px;
+    height: 20px;
+    position: relative;
+    top: 248px;
+    left: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0; 
+}
+
+#checkbox-job-type-temporary {
+    position: relative;
+    top: 305px;
+    left: -66px;
+}
+
+#job-type-temporary {
+    position: relative;
+    top: 283px;
+    left: -42px;
+    width: 83px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#checkbox-job-type-contract {
+    position: relative;
+    top: 280px;
+    left: 85px;
+}
+
+#job-type-contract {
+    position: relative;
+    top: 259px;
+    left: 109px;
+    width: 68px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;   
+}
+
+#checkbox-job-type-part-time {
+    position: relative;
+    top: 315px;
+    left: 17px;
+}
+
+#job-type-part-time {
+    position: relative;
+    top: 293px;
+    left: 42px;
+    width: 73px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;  
+}
+
+#checkbox-job-type-full-time {
+    position: relative;
+    top: 350px;
+    left: -56px;
+}
+
+#job-type-full-time {
+    position: relative;
+    top: 328px;
+    left: -31px;
+    width: 68px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;  
+}
+
+#on-site-remote {
+    position: relative;
+    top: 322px;
+    left: 26px;
+    width: 122px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#checkbox-on-site {
+    position: relative;
+    top: 320px;
+    left: 85px;
+}
+
+#on-site {
+    position: relative;
+    top: 298px;
+    left: 110px;
+    width: 58px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;  
+}
+
+#checkbox-remote {
+    position: relative;
+    top: 355px;
+    left: 27px; 
+}
+
+#remote {
+    position: relative;
+    top: 333px;
+    left: 53px;
+    width: 59px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#checkbox-hybrid {
+    position: relative;
+    top: 390px;
+    left: -32px; 
+}
+
+#hybrid {
+    position: relative;
+    top: 368px;
+    left: -6px;
+    width: 52px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 1;
+    flex-grow: 0; 
+}
+
+#city-state-text-box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 244px;
+    height: 32px;
+    left: 23px;
+    top: 668px;
+    border: 1px solid #464646;
+    border-radius: 4px;
+}
+
+#google-maps-link {
+    position: relative;
+    left: -146px;
+    top: 460px;
+    width: 244px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF8400;
+    text-decoration: none;
+}
+
+#reset-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 92px;
+    height: 48px;
+    left: 12px;
+    top: 750px;
+    
+    border-radius: 4px;
+}
+
+#reset-text {
+    width: 44px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0E408B;
+}
+
+#update-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 162px;
+    height: 48px;
+    left: 116px;
+    top: 742px;
+    background: #FF8400;
+    border: 1px solid #FFF3E6;
+    border-radius: 4px;
+}
+
+#update-text {
+    position: relative;
+    top: 8px;
+    width: 114px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFF3E6;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

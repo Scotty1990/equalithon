@@ -1,0 +1,147 @@
+.header-text {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+  }
+  
+  #header-title-gd {
+    width: 420px;
+    height: 56px;
+    left: 510px;
+    top: 136px;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 56px;
+  }
+  
+  #your-global-search-provider {
+    width: 640px;
+    height: 48px;
+    left: 400px;
+    top: 200px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  
+  #find-education-employment-resources {
+    width: 640px;
+    height: 64px;
+    left: 400px;
+    top: 312px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  #search-text-div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 211px;
+    height: 44px;
+    left: 359px;
+    top: 405px;
+  }
+  
+  #search-text-input-field {
+    position: absolute;
+    width: 230px;
+    height: 36px;
+    left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    outline: solid;
+    outline-width: 1px;;
+    outline-color: black;
+  }
+  
+  #dropdown-div {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 605px;
+    top: 408px;
+  
+    border: 1px solid #464646;
+    border-radius: 0px 4px 4px 0px;
+  }
+  
+  #find-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 834px;
+    top: 407px;
+    background: #0E408B;
+    border: 1px solid #E7ECF3;
+    border-radius: 4px;
+  }
+  
+  #search-icon-div {
+    width: 18px;
+    height: 18px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .feather-search {
+    position: absolute;
+    left: 70px;
+    color: white;
+  }
+  
+  #find-btn-text {
+    position: relative;
+    width: 33px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E7ECF3;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    top: 7px;
+  }
+  
+  #search-icon {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 69.5px;
+    top: 13px;
+  }

@@ -1,21 +1,14 @@
-import React, { useState } from 'react';
-import IconMenu from './IconMenu';
+import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown'
-import { SplitButton } from 'react-bootstrap';
+import '../css/StudentsIndividualsCards.css';
 
 function StudentsIndividualsCards(props) {
-    const [showIconMenu, setShowIconMenu] = useState(false)
-
-    function studentsIndividualsIconMenu() {
-        setShowIconMenu(true)
-        console.log("here")
-    }
     return (
         <div>
             <div id='students-individuals-div'>
                 <p id='students-individuals-text'>Students / Individuals</p>
             </div>
-            <div id='students-individuals-icon' onClick={studentsIndividualsIconMenu}>
+            <div id='students-individuals-icon'>
                 <Dropdown>
                     <Dropdown.Toggle id="dropdown-icons">
                         <svg 
