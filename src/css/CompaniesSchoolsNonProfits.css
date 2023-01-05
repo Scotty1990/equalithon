@@ -1,0 +1,227 @@
+#companies-school-nonprofits-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    position: absolute;
+    width: 475px;
+    height: 48px;
+    left: 130px;
+    top: 1392px;
+    border-radius: 4px;
+  }
+  
+  #companies-school-nonprofits-text {
+    width: 443px;
+    height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #4D4D4D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  #category-card-post-jobs {
+    position: absolute;
+    width: 420px;
+    height: 272px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #category-title-icon-div-post-jobs-container {
+    position: absolute;
+    width: 420px;
+    height: 272px;
+    left: 70px;
+  }
+  
+  .category-titles-and-icons {
+    position: absolute;
+    width: 420px;
+    height: 96px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: #888888;
+  }
+  
+  #category-title-and-icon-post-jobs {
+    left: 70px;
+    top: 1448px;
+  }
+  
+  .category-text-boxes-titles {
+    position: absolute;
+    width: 240px;
+    height: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center; 
+    color: #EDEDED;  
+  }
+  
+  .category-texts {
+    position: absolute;
+    width: 364px;
+    height: 128px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #717171;
+  }
+  
+  #post-jobs {
+    left: 115px;
+    top: 10px;
+  }
+  
+  #plus-circle-jobs {
+    left: 80px;
+    top: 22px;
+  }
+  
+  #post-jobs-text-div {
+    position: absolute;
+    width: 420px;
+    height: 176px;
+    left: 140px;
+    top: 1544px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #EDEDED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  #post-jobs-text {
+    left: 40px;
+    top: 10px;
+  }
+  
+  #category-card-advertise-programs {
+    position: absolute;
+    width: 420px;
+    height: 272px;
+    left: 170px;
+    top: 0px;
+  }
+  
+  #category-title-icon-div-advertise-programs-container {
+    position: absolute;
+    width: 420px;
+    height: 96px;
+    left: 200px;
+    top: 0px;
+  }
+  
+  #category-title-and-icon-advertise-programs {
+    left: 200px;
+    top: 1448px;
+  }
+  
+  .feather-monitor {
+    position: absolute;
+    top: 18px;
+    left: 75px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    padding: 4px;
+    background-color: orange;
+    color: white;
+  }
+  
+  #feather-monitor {
+    width: 48px;
+    height: 48px;
+    top: 22px;
+  }
+  
+  #advertise-programs {
+    left: 115px;
+    top: 10px;
+  }
+  
+  #advertise-programs-text-div {
+    position: absolute;
+    width: 420px;
+    height: 176px;
+    left: 402px;
+    top: 1544px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #EDEDED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  #advertise-programs-text {
+    left: 40px;
+    top: 10px;
+  }
+  
+  #category-card-find-talent {
+    position: absolute;
+    width: 420px;
+    height: 272px;
+    left: 0px;
+    top: 1500px;
+  }
+  
+  #category-title-icon-div-find-talent-container {
+    position: absolute;
+    width: 420px;
+    height: 96px;
+    left: 0px;
+    top: -52px;
+  }
+  
+  #category-title-and-icon-find-talent {
+    left: 1000px;
+    top: 0px;
+  }
+  
+  #find-talent-feather-search {
+    position: absolute;
+    top: 22px;
+    left: 100px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    padding: 4px;
+    background-color: orange;
+    color: white;
+  }
+  
+  #find-talent-text-div {
+    position: absolute;
+    width: 420px;
+    height: 176px;
+    left: 1000px;
+    top: 44px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #EDEDED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  #find-talent {
+    left: 170px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #find-talent-text {
+    left: 40px;
+    top: 10px;
+  }

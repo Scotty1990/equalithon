@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/BottomNav.css';
 
 function BottomNav(props) {
     return (

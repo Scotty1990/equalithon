@@ -1,5 +1,6 @@
 import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown'
+import '../css/StudentsIndividualsCards.css';
 
 function StudentsIndividualsCards(props) {
     return (

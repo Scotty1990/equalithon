@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/GDPortalPosts.css';
 import FilterSearch from './FilterSearch';
 import NavBar from './NavBar';
 import SearchJobsForm from './SearchJobsForm';

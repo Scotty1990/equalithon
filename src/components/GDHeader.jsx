@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchJobsForm from './SearchJobsForm';
+import '../css/GDHeader.css';
 
 function GDHeader() {
     return (

@@ -1,0 +1,104 @@
+#breadcrumbs-div {
+    position: absolute;
+    width: 1440px;
+    height: 48px;
+    left: 0px;
+    top: 88px;
+    background: #C8C8C8;
+  }
+  
+  .breadcrumb {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+    gap: 10px; 
+  }
+  
+  .breadcrumbs-dropdowns {
+    position: relative;
+    background: #C8C8C8;
+    border: 0px;
+    outline: 0px; 
+  }
+  
+  #breadcrumbs-my-gd-portal-dropdown {
+    top: 15px;
+    left: 200px;
+  }
+  
+  #breadcrumb-my-gd-portal {
+    width: 161px;
+    height: 32px;
+  }
+  
+  #breadcrumbs-earn-money-dropdown {
+    top: 15px;
+    left: 250px;
+  }
+  
+  #breadcrumb-earn-money {
+    width: 151px;
+    height: 32px;
+    left: 501px;
+    top: -15px;
+  }
+  
+  #breadcrumbs-jobs-dropdown {
+    top: 15px;
+    left: 300px;
+  }
+  
+  #breadcrumb-jobs {
+    width: 78px;
+    height: 32px;
+    left: 702px;
+    top: -15px;
+  }
+  
+  #search-text-div-portal-posts {
+    position: absolute;
+    top: 200px;
+    left: 350px;
+  }
+  
+  #dropdown-div-portal-posts {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    
+    position: absolute;
+    top: 200px;
+    left: 587px;
+    width: 230px;
+    height: 44px;
+  
+    border: 1px solid #464646;
+    border-radius: 0px 4px 4px 0px;
+  }
+  
+  #find-btn-portal-posts {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 200px;
+    height: 44px;
+    left: 816px;
+    top: 200px;
+    background: #0E408B;
+    border: 1px solid #E7ECF3;
+    border-radius: 4px;
+  }
+  

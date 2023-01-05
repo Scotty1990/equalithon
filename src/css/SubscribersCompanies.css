@@ -1,0 +1,169 @@
+#subscribers-companies-categories {
+    position: absolute;
+    width: 1440px;
+    height: 416px;
+    left: 0px;
+    top: 0px;
+  }
+  
+  #subscribers-container {
+    position: absolute;
+    border-radius: 50%;
+    width: 310px;
+    height: 312px;
+    left: 125px;
+    top: 0px;
+  }
+  
+  .orange-bottom-divs {
+    width: 310px;
+    height: 24px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #FF8400;
+  }
+  
+  .bottom-divs-text-and-number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #EDEDED;
+  }
+  
+  .bottom-divs {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: #464646;
+  }
+  
+  #subscribers {
+    position: absolute;
+    width: 310px;
+    height: 288px;
+    left: 50px;
+    top: 1820px;
+  }
+  
+  .feather-user-plus {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 140px;
+    top: 50px;
+    color: #FF8400;
+  }
+  
+  #subscribers-number {
+    position: absolute;
+    width: 310px;
+    height: 48px;
+    left: 4px;
+    top: 120px;
+    font-weight: 700;
+  }
+  
+  #subscribers-text {
+    position: absolute;
+    width: 310px;
+    height: 48px;
+    left: 8px;
+    top: 180px;
+  }
+  
+  #orange-bottom-subscribers {
+    position: absolute;
+    left: 50px;
+    top: 2108px;
+  }
+  
+  #companies-container {
+    position: absolute;
+    width: 310px;
+    height: 312px;
+    left: 465px;
+    top: 0px;
+  }
+  
+  #companies {
+    position: absolute;
+    width: 310px;
+    height: 288px;
+    left: 170px;
+    top: 1820px; 
+    background: #464646;
+  }
+  
+  .feather-globe {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 50px;
+    left: 130px;
+    color: #FF8400;
+  }
+  
+  #companies-number {
+    position: absolute;
+    top: 122px;
+    left: 148px;
+    font-weight: 700;
+  }
+  
+  #companies-text {
+    position: absolute;
+    top: 182px;
+    left: 80px;
+  }
+  
+  #orange-bottom-companies {
+    position: absolute;
+    top: 288px;
+  }
+  
+  #categories-container {
+    position: absolute;
+    width: 310px;
+    height: 312px;
+    left: 1005px;
+    top: 1820px;
+  }
+  
+  .feather-grid {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    color: #FF8400;
+    left: 137px;
+    top: 50px;
+  }
+  
+  #categories {
+    position: absolute;
+    width: 310px;
+    height: 288px;
+    left: 60px;
+    top: 0px;
+    background: #464646;
+  }
+  
+  #categories-number {
+    position: absolute;
+    top: 122px;
+    left: 155px;
+    font-weight: 700;
+  }
+  
+  #categories-text {
+    position: absolute;
+    top: 182px;
+    left: 80px;
+  }
+  
+  #orange-bottom-categories {
+    position: absolute;
+    top: 288px;
+  }
+  
