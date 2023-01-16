@@ -79,7 +79,7 @@ function GDPortalPosts() {
     const [arr, setArr] = useState([1, 2, 3])
     let pageSize = 3
     let numLen = Math.ceil(posts.length / pageSize)
-    console.log(numLen)
+    
     useEffect(() => {
         let len = posts.length, counter = 1
 
@@ -102,7 +102,7 @@ function GDPortalPosts() {
             // if (i === 2)
             //     break
         }
-        console.log(arr)
+        // console.log(arr)
     })
 
     function updatePage(page) {

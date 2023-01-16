@@ -10,6 +10,10 @@ function Pagination(props) {
     function onPrevious() {
         props.onPageChange(props.currentPage - 1)
     }
+    
+    function onSpecificPage(page) {
+        props.onPageChange(parseFloat(page.target.innerHTML))
+    }
 
     return (
         <div id="pagination">
@@ -38,7 +42,11 @@ function Pagination(props) {
                 <div id="paginationNumbersContainer">
                     {props.arr.map((item) => {
                         return (
-                            <div key={item} className={props.currentPage === item ? "stylingContainers" : "paginationNumbersContainers"}>
+                            <div 
+                                key={item} 
+                                className={props.currentPage === item ? "stylingContainers" : "paginationNumbersContainers"}
+                                onClick={(item) => onSpecificPage(item)}
+                            >
                                 <div style={props.currentPage === item ? {color: "white"} : {color: ""}} className='paginationNumbers'>{item}</div>
                             </div>
                         )
