@@ -26,7 +26,9 @@ function MyGDPortalPage() {
             />
             <CompaniesSchoolsNonprofits />
             <SubscribersCompanies />
-            <BottomNav />
+            <BottomNav 
+                id={`bottom-nav`}
+            />
         </div>
     );
 }

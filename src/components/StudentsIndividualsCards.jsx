@@ -17,10 +17,10 @@ function StudentsIndividualsCards(props) {
                         viewBox="0 0 24 24" 
                         fill="none" 
                         stroke="currentColor" 
-                        stroke-width="2" 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round" 
-                        class="feather feather-more-horizontal"
+                        strokeWidth="2" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        className="feather feather-more-horizontal"
                         id="top-more-icon"
                     ><circle 
                         cx="12" 
@@ -42,10 +42,10 @@ function StudentsIndividualsCards(props) {
                         viewBox="0 0 24 24" 
                         fill="none" 
                         stroke="currentColor" 
-                        stroke-width="2" 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round" 
-                        class="feather feather-more-horizontal"
+                        strokeWidth="2" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        className="feather feather-more-horizontal"
                         id="middle-more-icon"
                     ><circle 
                         cx="12" 
@@ -67,10 +67,10 @@ function StudentsIndividualsCards(props) {
                         viewBox="0 0 24 24" 
                         fill="none" 
                         stroke="currentColor" 
-                        stroke-width="2" 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round" 
-                        class="feather feather-more-horizontal"
+                        strokeWidth="2" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        className="feather feather-more-horizontal"
                         id="bottom-more-icon"
                     ><circle 
                         cx="12" 
@@ -130,23 +130,23 @@ function StudentsIndividualsCards(props) {
                 <div id='category-title-icon-div-earn-money-container'>
                     <div id='category-title-and-icon-earn-money'>
                         <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    width="24" 
-                    height="24" 
-                    viewBox="0 0 24 24" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    stroke-width="2" 
-                    stroke-linecap="round" 
-                    stroke-linejoin="round" 
-                    class="feather feather-dollar-sign"
-                    ><line 
-                    x1="12" 
-                    y1="1" 
-                    x2="12" 
-                    y2="23"
-                    /><path 
-                    d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="24" 
+                            height="24" 
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            strokeWidth="2" 
+                            strokeLinecap="round" 
+                            strokeLinejoin="round" 
+                            className="feather feather-dollar-sign"
+                        ><line 
+                            x1="12" 
+                            y1="1" 
+                            x2="12" 
+                            y2="23"
+                        /><path 
+                            d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
                         /></svg>
                         <p id='earn-money' className='category-title-texts'>Earn Money</p>
                     </div>
@@ -170,31 +170,31 @@ function StudentsIndividualsCards(props) {
                 <div id='category-title-icon-div-emergency-resources-listings-container'>
                     <div id='category-title-and-icon-emergency-resources'>
                         <svg 
-                        xmlns="http://www.w3.org/2000/svg" 
-                        width="24" 
-                        height="24" 
-                        viewBox="0 0 24 24" 
-                        fill="none" 
-                        stroke="currentColor" 
-                        stroke-width="2" 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round" 
-                        class="feather feather-plus-circle"
-                        id="feather-plus-circle-emergency"
-                    ><circle 
-                        cx="12" 
-                        cy="12" 
-                        r="10"
-                    /><line 
-                        x1="12" 
-                        y1="8" 
-                        x2="12" 
-                        y2="16"
-                    /><line 
-                        x1="8" 
-                        y1="12" 
-                        x2="16" 
-                        y2="12"
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="24" 
+                            height="24" 
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            strokeWidth="2" 
+                            strokeLinecap="round" 
+                            strokeLinejoin="round" 
+                            className="feather feather-plus-circle"
+                            id="feather-plus-circle-emergency"
+                        ><circle 
+                            cx="12" 
+                            cy="12" 
+                            r="10"
+                        /><line 
+                            x1="12" 
+                            y1="8" 
+                            x2="12" 
+                            y2="16"
+                        /><line 
+                            x1="8" 
+                            y1="12" 
+                            x2="16" 
+                            y2="12"
                         /></svg>
                         <p id='emergency-resources' className='category-title-texts'>Emergency Resources</p>
                     </div>
@@ -220,10 +220,10 @@ function StudentsIndividualsCards(props) {
                         viewBox="0 0 24 24" 
                         fill="none" 
                         stroke="currentColor" 
-                        stroke-width="2" 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round" 
-                        class="feather feather-cloud"
+                        strokeWidth="2" 
+                        strokeLinecap="round" 
+                        strokeLinejoin="round" 
+                        className="feather feather-cloud"
                         id="feather-cloud"
                     ><path 
                         d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
